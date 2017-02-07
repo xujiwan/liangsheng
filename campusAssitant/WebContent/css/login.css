@@ -1,0 +1,227 @@
+body {
+	background-image: url(../images/login/banner.jpg);
+	
+	height: 600px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	/*overflow: hidden;
+	overflow-x:hidden;*/
+}
+.zzu-page-account{
+	position: relative;
+}
+button {
+	cursor: hand;
+}
+
+input {
+	height: 40px
+}
+
+
+/*主体*/
+
+
+/*@media (max-width: 992px) {
+	.zzu-bg-box,
+	.zzu-loginbox {
+		margin-left: 26%;
+		margin-top: 180px;
+		position: absolute;
+	}
+}*/
+.zzu-login-botton{
+	background-color: dodgerblue;
+}
+.zzu-bg-box,
+.zzu-loginbox {
+	margin-left: 64%;
+	margin-top: 130px;
+	position: absolute;
+}
+
+.zzu-bg-box {
+	background-color: #0D7B92;
+	opacity: 0.4;
+	width: 330px;
+	height: 380px;
+	border-radius: 3px;
+}
+
+.zzu-user-tel {
+	width: 270px;
+}
+
+.zzu-user-password {
+	width: 270px;
+}
+
+.zzu-user-verify {
+	width: 180px;
+}
+
+.zzu-loginbox {
+	overflow: hidden;
+	padding-left: 25px;
+}
+
+.zzu-user-login {
+	margin-top: 28px;
+}
+
+.zzu-user-login h1,
+.zzu-user-login p {
+	float: left;
+	font-size: 20px;
+	color: #FFF;
+}
+
+.zzu-user-login p {
+	padding-left: 46px;
+}
+
+a:hover {
+	color: dodgerblue;
+	cursor: hand;
+}
+
+.zzu-input-login input {
+	height: 45px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.zzu-input-login a {
+	margin-top: -48px;
+	display: block;
+	margin-left: 210px;
+	padding-bottom: 20px;
+}
+
+.zzu-verify-box input,
+.zzu-verify-box a {
+	float: left;
+	color: #FFF;
+}
+
+.zzu-verify {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -65px;
+}
+
+.zzu-verify-box a {
+	padding-top: 26px;
+	padding-left: 26px;
+}
+
+.zzu-btn-box {
+	margin-top: -33px;
+	width: 100px;
+	margin-bottom: 4px;
+	position: absolute;
+}
+
+.zzu-btn-login {
+	margin-top: 40px;
+	width: 270px;
+	height: 46px;
+	background-color:black;
+	/*background-color:#fe053f;*/
+	opacity: 0.4;
+}
+
+	
+
+.zzu-tel-sign {
+	background-image: url(../images/login-common/sign.png);
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	margin-top: -49px;
+	margin-left: 240px;
+}
+
+.zzu-password-sign {
+	background-image: url(../images/login-common/sign.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+	background-position: -17px 0px;
+	margin-top: -48px;
+	margin-left: 240px;
+}
+
+.zzu-login-botton {
+	color: #FFF;
+	/*background-color: transparent;*/
+	border: 0;
+	width: 270px;
+	height: 46px;
+	margin-top: -12px;
+	font-size: 16px;
+}
+
+.zzu-login-botton:hover {
+	color: white;
+}
+
+.zzu-login-hint {
+	margin-top: -10px;
+	color: #ed272e;
+	font-size: 15px;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 270px;
+	position: absolute;
+}
+
+/*登录页底部高度大小设置*/
+@media (max-width: 1020px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 530px;
+}
+}
+@media (min-width: 1020px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 550px;
+}
+}
+@media (min-width: 1280px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 530px;
+}
+}
+@media (min-width: 1600px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:660px;
+}
+}
+@media (min-width: 1920px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:760px;
+}
+}
+.clear {
+	clear: both
+}

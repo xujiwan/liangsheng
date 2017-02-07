@@ -1,0 +1,56 @@
+define(["jquery", "echars-common", "common", "util/validate", "datepicker", "datepickerCn", "accountsPublic", "page", "bs"], function(e, t, n, i, o, a) {
+	var s = 9;
+	e(".spinner").hide();
+	var c = function(t, i) {
+			var o = {},
+				a = t || 1,
+				s = i || 5,
+				d = (a - 1) * s,
+				l = s,
+				r = {
+					start: d,
+					length: l,
+					columns: [{
+						data: "TIME",
+						name: "TIME",
+						orderable: !0
+					}, {
+						data: "ISSUE",
+						name: "ISSUE"
+					}, {
+						data: "TIME",
+						name: "TIME"
+					}, {
+						data: "DESCRIPTION",
+						name: "DESCRIPTION"
+					}],
+					order: [{
+						column: "0",
+						dir: "desc"
+					}]
+				};
+			o.pageData = JSON.stringify(r);
+			var m = function(t) {
+					e(".spinner").hide(), n.putTemplete("zzu_notice_list_tem", t.data, "zzu_notice_list"), e(".zzu-notice").on("click", function() {
+						e("#myModal").modal("show"), n.putTemplete("zzu_notice_dialog_tem", e.tmplItem(this).data, "zzu_notice_dialog")
+					}), e(".zzu-notice").mouseenter(function() {
+						e(this).find(".zzu-shade").show(), e(this).find(".zzu-notice-btn").css("color", "#ED272E")
+					}), e(".zzu-notice").mouseleave(function() {
+						e(this).find(".zzu-notice-btn").css("color", "#000000"), e(this).find(".zzu-shade").hide()
+					}), e.zzuPage({
+						pageNo: a,
+						pageSize: s,
+						totalCount: t.recordsFiltered,
+						load: c
+					})
+				};
+			n.ajaxUtil("/kw/mediaInfo/getNoticeList.json", o, "GET", m, function() {
+				e(".spinner").hide()
+			})
+		};
+	c(1, 9), e(".zzu-notice-load-btn").click(function() {
+		e(".spinner").show();
+		var t, n;
+		s += 3, c(1, s), t > n && e(".zzu-notice-btn").html("没有可加载项")
+	})
+});

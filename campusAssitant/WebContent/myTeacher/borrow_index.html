@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<base href="/" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="网交所互联网金融平台提供：汽车金融贷款,个人消费贷款,三农贷款,企业经营贷款,校园贷等。放款速度快,手续简单"/>
+		<meta name="keywords" content="汽车抵押贷款,汽车质押贷款,个人消费贷款,农业贷款,企业经营贷"/>
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-title" content="网交所">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<!-- 让360双核浏览器用webkit内核渲染页面================================================== -->
+		<meta name="renderer" content="webkit">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="fragment" content="!" />
+		<meta name="format-detection" content="telephone=no">
+		<!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核  -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="revised" content="Frank, 2015/10/16" />
+		<title>我要借款_汽车贷款_个人消费贷款_农业贷款-网交所</title>
+		<link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link href="js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="invest/css/common.css" rel="stylesheet">
+		<link href="loan/css/borrow_index.css" rel="stylesheet">
+		<link href="invest/css/scrollbar.css" rel="stylesheet">
+		<link href="js/lib/shortcut/css/default.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="zzu_header">
+			<div class="zzu-topbar">
+				<div class="container row">
+					<div class="col-xs-6 zzu-topnav zzu-fr">
+						<div class="col-xs-4 zzu-topnav-left">
+							<i class="zzu-icon zzu-icon-mail"></i><a href="mailto:service@zzuchina.com" target="_blank">service@zzuchina.com</a>
+						</div>
+						<div class="col-xs-3">
+							<i class="zzu-icon zzu-icon-tel"></i>+400 888 0176
+						</div>
+						<div class="col-xs-4 zzu-login-reg zzu-no-login ">
+							<i class="col-xs-2 zzu-icon zzu-icon-login"></i> <a href="login.html" target="_self" class="col-xs-3">登录</a> <a class="col-xs-3 zzu-reg" href="register.html" target="_self">注册</a>
+						</div>
+						<div class="col-xs-4 zzu-login-reg zzu-login zzu-hidden">
+							<a href="invest/accounts/account_index.html" class="col-xs-5 zzu-reg" target="_self">账户中心</a>
+							<a class="col-xs-3 zzu-reg" id="zzu_exit" href="javascript:;">退出</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row zzu-header">
+				<div id="zzu_navBg" class="zzu-nav-bg"></div>
+				<div class="container">
+					<div class="col-xs-5 zzu-logo">
+						<a href="http://www.zzuchina.com/"><img alt="logo" src="images/logo/logo.png"></a>
+					</div>
+					<div class="col-xs-7">
+						<ul class="nav nav-pills" id="zzu_nav_header">
+							<li><a href="http://www.zzuchina.com/" target="_self">&nbsp;&nbsp;首&nbsp;&nbsp;&nbsp;页&nbsp;&nbsp;</a></li>
+							<li class="zzu-sub-menu-product"><a target="_self" href="invest/product/product_type.html">投资理财</a>
+								<div class="zzu-sub-menu">
+									<div class="zzu-inner">
+										<a href="invest/product/product_type.html" target="_self">理财产品</a>
+										<a href="invest/product/product_list.html" target="_self">散标投资</a>
+										<a href="invest/product/transfer_list.html" target="_self">债权转让</a>
+									</div>
+								</div>
+							</li>
+							<li><a href="loan/borrow_index.html" target="_self">我要借款</a></li>
+							<li><a href="pc/p2p/phoenix" target="_self">凤凰计划</a></li>
+							<li class="zzu-sub-menu-new"><a target="_self" href="javascript:;">新手专区</a>
+								<div class="zzu-sub-menu">
+									<div class="zzu-inner">
+										<a class="zzu-sub-menu-left" href="pc/static/company_profile" target="_self">关于我们</a>
+										<a href="pc/static/help" target="_self">帮助指引</a>
+									</div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="zzu-banner">
+
+			<div class="zzu-banner-mainbox">
+				<div class="zzu-banner-title">
+					<img src="loan/images/borrow_index/bannerTitle.png">
+				</div>
+				<div class="zzu-fund-apply-box">
+					<h1>我需要资金</h1>
+					<input type="text" class="zzu-user-name zzu-f18" id="zzu_user_name" size="28" placeholder=" 真实姓名" maxlength="11">
+					<input type="text" class="zzu-user-tel zzu-f18" id="zzu_user_tel" size="28" placeholder=" 手机号码" maxlength="11">
+					<input type="text" class="zzu-user-verify zzu-f18" size="20" placeholder="手机验证码" id="zzu_iphone_code">
+					<a class="zzu-get-code zzu-f16 clearfix" id="zzu_get_code" href="javascript:void(0);">获取验证码</a>
+					<div class="zzu-error zzu-clear" id="zzu_error"></div>
+					<div class="zzu-btn-box ">
+						<button class="zzu-apply-bottom zzu-f18" id='zzu_apply_bottom'>提交申请</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="zzu-section-financing zzu-product-background">
+			<div class="container">
+				<div class="row zzu-m-tit">
+					<h2>理财项目</h2>
+					<p>网交所，理财新选择，安全有保障</p>
+				</div>
+				<div class="row zzu-loanType-nav">
+					<ul class="nav">
+						<li class="col-xs-4">
+							<a href="invest/product/product_type.html#zzu_car">
+								<h3>
+								<div class="thumbnail zzu-pic">
+									<i class="zzu-icon zzu-icon-car"></i>
+								</div>
+								<div>汽车项目</div>
+							</h3>
+								<p>汽车消费链金融为理财客户提供多样化理财产品</p>
+							</a>
+						</li>
+						<li class="col-xs-4">
+							<a href="invest/product/product_type.html#zzu_credit">
+								<h3>
+								<div class="thumbnail zzu-pic">
+									<i class="zzu-icon zzu-icon-credit"></i>
+								</div>
+								<div>信用项目</div>
+							</h3>
+								<p>为信用良好的优质借款人提供个人消费的融资需求，为有闲置资金的客户带来可观的经济效益。</p>
+							</a>
+						</li>
+						<li class="col-xs-4">
+							<a href="invest/product/product_type.html#zzu_agriculture">
+								<h3>
+								<div class="thumbnail zzu-pic">
+									<i class="zzu-icon zzu-icon-house"></i>
+								</div>
+								<div>三农项目</div>
+							</h3>
+								<p>深入农村广阔市场，服务三农</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="zzu-section-service">
+			<div class="container">
+				<div class="zzu-m-tit">
+					<h2>服务优势</h2>
+					<p>安全、透明、细致、高效</p>
+				</div>
+				<div class="row zzu-service-box">
+
+					<div class="col-xs-3 zzu-service-smallbox zzu-smallbox-oneleft">
+						<img src="loan/images/borrow_index/service1.png">
+						<div class="zzu-con ">
+							<p><span>方式灵活</span>分期期限一般1-18个月，最高24个月；还款形式一般为按月等额本息，还款周期视借款人月收入及还款能力而定。</p>
+						</div>
+
+					</div>
+
+					<div class="col-xs-3 zzu-service-smallbox">
+						<img src="loan/images/borrow_index/service2.png">
+						<div class="zzu-con ">
+							<p><span>公平透明</span>采用国内外银行通用的风险利率打分模式，对申请人进行贷款风险评估，公允地为每一个借款申请者划定信用等级和相应的贷款费率区间。</p>
+						</div>
+
+					</div>
+					<div class="col-xs-3 zzu-service-smallbox">
+						<img src="loan/images/borrow_index/service3.png">
+						<div class="zzu-con ">
+							<p><span>放款迅速</span>80%申请当天审批完成，3日内完成融资；100%申请48小时内审批完成，5日内完成融资。</p>
+						</div>
+
+					</div>
+					<div class="col-xs-3 zzu-service-smallbox">
+						<img src="loan/images/borrow_index/service4.png">
+						<div class="zzu-con ">
+							<p><span>优质客服</span>专业人员随时为您沟通，解答网站使用、审批流程、申请材料、融资进度等问题。</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="zzu-section-chart">
+			<div class="container">
+				<div class="zzu-m-tit">
+					<h2>申请流程</h2>
+					<p>以下操作如需帮助请拨打网交所客服电话：4008880176</p>
+				</div>
+				<div class="row zzu-chart-box">
+
+					<div class="col-xs-2 zzu-chart-smallbox zzu-chart-left">
+						<div class="zzu-number">1</div>
+						<img src="loan/images/borrow_index/chart1.png" />
+
+						<div class="zzu-con ">
+							<p>注册成为网交所会员</br>绑定汇付天下</p>
+						</div>
+
+					</div>
+
+					<div class="col-xs-2 zzu-chart-smallbox zzu-chart-left">
+						<div class="zzu-number">2</div>
+						<img src="loan/images/borrow_index/chart2.png" />
+						<div class="zzu-con ">
+							<p>申请借款</p>
+						</div>
+
+					</div>
+					<div class="col-xs-2 zzu-chart-smallbox zzu-chart-left">
+						<div class="zzu-number">3</div>
+						<img src="loan/images/borrow_index/chart3.png" />
+						<div class="zzu-con ">
+							<p>填写个人信息</p>
+						</div>
+
+					</div>
+					<div class="col-xs-2 zzu-chart-smallbox zzu-chart-left">
+						<div class="zzu-number">4</div>
+						<img src="loan/images/borrow_index/chart4.png" />
+						<div class="zzu-con ">
+							<p>通过审核后开始筹标</p>
+						</div>
+
+					</div>
+					<div class="col-xs-2 zzu-chart-smallbox zzu-chart-left">
+						<div class="zzu-number">5</div>
+						<img src="loan/images/borrow_index/chart5.png" />
+						<div class="zzu-con ">
+							<p>筹标完成放款</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="zzu_footer">
+		<footer class="zzu-footer">
+			<div class="zzu-friend-links">
+				<div class="container row">
+					<div class="col-xs-1">友情链接</div>
+					<div class="col-xs-10" id="zzu_friend_link">
+						<template id="zzu_friend_link_tem"> <a href="${LINK_URL}" target="_blank">${TITLE}</a> </template>
+					</div>
+				</div>
+			</div>
+			<div class="zzu-footer-nav">
+				<div class="container row">
+					<div class="col-xs-5 zzu-copyright">
+						<div class="zzu-foot-title">网交所</div>
+						<div class="zzu-foot-info">
+网交所(www.zzuchina.com)是由上海直荣金融信息服务有限公司倾力打造的互联网金融平台，2015年与中原银行股份有限公司开展全面战略合作。网交所总部位于上海市黄浦区互联网金融产业园，股东及管理团队均在金融领域经验丰富。</div>
+						<div class="zzu-contact">
+							<span class="zzu-tel"> <i class="zzu-icon zzu-icon-tel-footer zzu-vam"></i><span class="zzu-vam">+400 888 0176</span>
+							</span> <span class="zzu-email"> <i class="zzu-icon zzu-icon-mail-footer zzu-vam"></i><span class="zzu-vam"><a href="mailto:service@zzuchina.com">service@zzuchina.com</a></span>
+							</span>
+							<span class="zzu-social-sharesina">
+								<div class="zzu-social-share">
+									<div class="zzu-item">
+										<i class="zzu-icon zzu-icon-sina"></i>
+										<div class="zzu-pop">
+											<p class="zzu-text-gray">点击关注网交所微博</p>
+											<a href="http://weibo.com/zzuchina"><span class="zzu-text-emphasis">@zzuchina</span></a>
+										</div>
+									</div>
+								</div>
+							</span>
+						</div>
+						
+						<div ><p>版权所有 &copy; 2015 上海直荣金融信息服务有限公司 沪ICP备14052873号</p></div>
+					</div>
+					<div class="col-xs-3">
+						<div class="col-xs-4 zzu-nav-list">
+							<div class="zzu-foot-title">帮助指引</div>
+							<a href="pc/static/help?g=i#help_nav">如何投资</a> <a href="pc/static/help?g=l#help_nav">如何借款</a> <a
+								href="pc/static/help?g=n#help_nav">新手指引</a>
+						</div>
+						<div class="col-xs-4 zzu-nav-list">
+							<div class="zzu-foot-title">公司信息</div>
+							<a href="pc/static/company_profile">企业介绍</a> <a href="pc/static/team_intro">管理团队</a> <a href="pc/static/partner">合作伙伴</a> <a
+								href="http://henan.qq.com/a/20151231/027460.htm" target="_blank">媒体报道</a> <a href="pc/static/news?type=0">最新动态</a> <a href="pc/static/notice?type=1">平台公告</a>
+							<a href="pc/static/join_us">加入我们</a> <a href="pc/static/contact_us">联系我们</a>
+						</div>
+						<div class="col-xs-4 zzu-nav-list">
+							<div class="zzu-foot-title">相关政策</div>
+							<a href="pc/static/help?g=s#help_nav">安全保障</a> <a href="pc/static/help?g=r#help_nav">费率说明</a> <a
+								href="pc/static/help?g=c#help_nav">使用条款</a>
+						</div>
+					</div>
+					<div class="col-xs-3 zzu-app-download">
+						<div class="zzu-foot-title">应用下载</div>
+						<div class="row">
+							<div class="col-xs-5">
+								<img src="images/foot/downLoad.png" alt="" style="width: 80%" />
+								<p class="zzu-mt15">
+									<a href="javascript:;">安卓版下载</a>
+								</p>
+							</div>
+							<div class="col-xs-5">
+								<img src="images/foot/downLoad.png" alt="" style="width: 80%" />
+								<p class="zzu-mt15">
+									<a href="javascript:;">苹果版下载</a>
+								</p>
+							</div>
+						</div>
+						<div class="row zzu-authentication">
+							<a class="zzu-gswm" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=dov73ne2cve0r70m02lcb51of9fw2jy4gg" target="_blank"></a> <a class="zzu-norton"
+								href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.zzuchina.com&lang=zh_cn" target="_blank"></a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div style="display: none;">
+		<script data-main="js/main" src="js/lib/require.min.js"></script>
+		<script type="text/javascript">
+			// 站长统计
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan id='cnzz_stat_icon_1254420293'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol
+					+ "s95.cnzz.com/z_stat.php%3Fid%3D1254420293' type='text/javascript'%3E%3C/script%3E"));
+			//版本号
+			/* var require = {
+				urlArgs: 'v=1.3.3'
+			}; */
+		</script>
+	</div>
+	</body>
+</html>

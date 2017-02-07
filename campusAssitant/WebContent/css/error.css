@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body{
+	font-family: "微软雅黑";
+	display: block;
+}
+
+span {
+	margin: 0
+}
+
+.zzu-clear {
+	clear: both;
+}
+
+.zzu-error {
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+
+.zzu-error-text {
+	font-size: 30px;
+	color: #000000;
+	width: 470px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #e1dede;
+	overflow: auto;
+	background-color: whitesmoke;
+}
+
+.zzu-error-text p {
+	color: #000000;
+	font-size: 15px;
+	padding-top: 30px;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.zzu-error .zzu-rightTop-text, .zzu-error .zzu-rightBottom-text {
+	display: block;
+}
+
+.zzu-error .zzu-errorImg-right, .zzu-error img {
+	float: left;
+}
+
+.zzu-error-text span {
+	display: block;
+	font-size: 14px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.zzu-button span, .zzu-button button {
+	float: left;
+}
+
+.zzu-button button {
+	height: 26px;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+.zzu-button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.zzu-error .zzu-rightBottom-text {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.zzu-rightBottom-text {
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.zzu-rightBottom-english {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+	color: #B8B7B7;
+	margin-left: 100px;
+}

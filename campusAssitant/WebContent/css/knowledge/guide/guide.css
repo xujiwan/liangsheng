@@ -1,0 +1,310 @@
+@charset "utf-8";
+.wjs-banner {
+	background-image: url(/img/knowledge/guide/banner.jpg);
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.wjs-red-bottom:before {
+	content: "";
+	position: absolute;
+	width: 1em;
+	height: 2px;
+	bottom: 20px;
+	background-color: #ed272e;
+	margin-left: 26px;
+}
+
+.wjs-investment {
+	position: relative;
+}
+
+.wjs-sub-nav .nav-pills {
+	margin-left: 400px;
+}
+
+.wjs-flow {
+	background-color: #f5f5f5;
+	height: 786px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.wjs-clause {
+	background-color: #f5f5f5;
+	height: 580px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.wjs-rate-leftTop,
+.wjs-rate-rightTop,
+.wjs-rate-leftbtm,
+.wjs-rate-rightbtm {
+	float: left;
+	background-color: #efefef;
+	padding-left: 60px;
+	padding-right: 50px;
+}
+
+.wjs-rate-leftTop,
+.wjs-rate-rightTop {
+	height: 550px;
+	background-image: url(/img/knowledge/guide/edge1.jpg);
+	background-repeat: no-repeat;
+}
+
+.wjs-rate-leftbtm,
+.wjs-rate-rightbtm {
+	height: 434px;
+	background-image: url(/img/knowledge/guide/edge2.jpg);
+	background-repeat: no-repeat;
+}
+
+.wjs-rate-leftTop {
+	width: 666px;
+}
+
+.wjs-rate-rightTop {
+	width: 523px;
+}
+
+.wjs-rate-leftbtm {
+	width: 612px;
+}
+
+.wjs-rate-rightbtm {
+	width: 578px;
+}
+
+.wjs-rate-leftTop .wjs-guide-title {
+	background-image: url(/img/knowledge/guide/rate1.jpg);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	margin-top: 50px;
+}
+
+.wjs-rate-rightTop .wjs-guide-title {
+	background-image: url(/img/knowledge/guide/rate2.jpg);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	margin-top: 50px;
+}
+
+.wjs-rate-leftbtm .wjs-guide-title {
+	background-image: url(/img/knowledge/guide/rate3.jpg);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	margin-top: 50px;
+}
+
+.wjs-rate-rightbtm .wjs-guide-title {
+	background-image: url(/img/knowledge/guide/rate4.jpg);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	margin-top: 50px;
+}
+
+.wjs-container-box .wjs-guide-title {
+	font-size: 24px;
+	color: #ed272e;
+	padding-bottom: 30px;
+	padding-top: 0px;
+}
+
+.wjs-rate-catalogue {
+	font-size: 16px;
+	border-bottom: 1px solid #999999;
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+}
+
+.wjs-rate-catalogue span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.wjs-clause-detail,
+.wjs-clause-download {
+	float: left;
+	background-color: #ED272E;
+	
+	width: 200px;
+	height: 50px;
+	
+    line-height: 50px;
+    font-size: 16px;
+}
+.wjs-clause-detail a,
+.wjs-clause-download a{
+	color: white;
+}
+.wjs-clause-detail {
+	margin-left: 350px
+}
+
+.wjs-clause .wjs-font-bold {
+	padding-top: 30px;
+}
+
+.wjs-clause .wjs-detai-clause {
+	background-color: white;
+	height: 416px;
+	padding-left: 50px;
+	padding-right: 40px;
+}
+
+.wjs-clause img,
+.wjs-clause .wjs-clause-text {
+	float: left;
+}
+
+.wjs-clause-text.wjs-font-word {
+	width: 940px;
+	line-height: 2;
+}
+
+.wjs-clauseLeft-img {
+	padding-top: 60px;
+}
+
+.wjs-problem-left p {
+	background-image: url(/img/knowledge/guide/problemImg2.jpg);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	background-color: #f5f5f5;
+	background-position-x: 20px;
+	line-height: 1.8;
+	padding-top: 20px;
+	background-position-y: 20px;
+	padding-right: 20px;
+	padding-bottom: 60px;
+}
+
+.wjs-problem-left .wjs-problem-title {
+	background-image: url(/img/knowledge/guide/problemImg1.jpg);
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding-left: 80px;
+	background-position: 20px;
+	padding-top: 17px;
+}
+
+.wjs-problem-left .wjs-problem-title {
+	height: 54px;
+	background-color: #d2d2d2;
+	padding-left: 80px;
+}
+
+.wjs-problem-left {
+	width: 580px;
+}
+
+.wjs-problem-right p {
+	background-image: url(/img/knowledge/guide/problemImg2.jpg);
+	background-repeat: no-repeat;
+	padding-left: 80px;
+	background-color: #f5f5f5;
+	background-position-x: 20px;
+	line-height: 1.8;
+	padding-top: 20px;
+	background-position-y: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+.wjs-problem-right .wjs-problem-title {
+	background-image: url(/img/knowledge/guide/problemImg1.jpg);
+	background-repeat: no-repeat;
+	font-size: 16px;
+	padding-left: 80px;
+	background-position: 20px;
+	padding-top: 17px;
+}
+
+.wjs-problem-right .wjs-problem-title {
+	height: 54px;
+	background-color: #d2d2d2;
+	padding-left: 80px;
+}
+
+.wjs-problem-right {
+	width: 594px;
+}
+
+.wjs-problem-left {
+	float: left;
+}
+
+.wjs-problem-right {
+	float: left;
+}
+
+.wjs-mb80 {
+	margin-bottom: 80px;
+}
+
+
+/*投资流程滚动*/
+
+.carousel-control{
+	padding-top: 280px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    background-color: #fff;
+}
+.wjs-register-btn,
+.wjs-hf-btn,
+.wjs-recharge-btn,
+.wjs-invest-btn
+{float:left;
+	width:90px;
+	height:100px;
+	background-position-y:36px ;
+	background-repeat: no-repeat;
+	margin-left: 175px;
+	background-position-x: 16px;
+}
+.wjs-register-btn{
+	background-image: url(/img/knowledge/guide/registerBtn.jpg);
+	
+}
+.wjs-hf-btn{
+	background-image: url(/img/knowledge/guide/hfBtn.jpg);
+	
+}
+.wjs-recharge-btn{
+	background-image: url(/img/knowledge/guide/rechargeBtn.jpg);
+	
+}
+.wjs-invest-btn{
+	background-image: url(/img/knowledge/guide/investBtn.jpg);
+	
+}
+.wjs-invest-step{
+	z-index: 2;
+}
+.wjs-flow-line{
+	z-index: 1;
+    width: 750px;
+    height: 2px;
+    background-color: #ED272E;
+    margin-top: 105px;
+    margin-left: 250px;
+}

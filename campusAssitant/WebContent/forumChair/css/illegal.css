@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+	font-family: "微软雅黑";
+}
+.modal-header{
+	background-color:#f0efef;
+}
+.modal-body{
+	font-size: 16px;
+}
+.btn-primary{
+	background-color:#ef686d;
+	border: none;
+}
+.btn-primary:active,
+.btn-primary:hover
+{
+	background-color:#ef686d;
+}
+.modal-body {
+	color:#ed272e;
+	padding-left:34px;
+}
+.modal-dialog{
+	margin-top:200px;
+}

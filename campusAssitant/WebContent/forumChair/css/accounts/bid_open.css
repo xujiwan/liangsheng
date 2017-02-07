@@ -1,0 +1,70 @@
+@charset "utf-8";
+.zzu-clear{
+	clear:both;
+}
+.zzu-bid-container{
+	overflow: hidden;
+	height: 400px;
+	background-color:white;
+	margin-top:40px;
+}
+
+.zzu-container{
+	
+    padding: 0px;
+    width: 1200px !important;
+    margin-left:auto;
+    margin-right: auto;
+}
+}
+.zzu-bid-accredit{
+	background-color:white;
+	overflow: hidden;
+	margin-top:50px;
+}
+.zzu-bid-accredit h4{
+	color: red;
+	font-size:19px;
+	margin-left:30px;
+	margin-top: 20px;
+}
+.zzu-btn-open{
+	background-color:#f36c71;
+	border-radius: 50%;
+	width:60px;
+	height:60px;
+	margin-left:80%;
+	margin-top:30px;
+	cursor: hand;
+}
+.zzu-btn-open a{
+	color:white;
+	font-size:18px;
+	line-height:60px;
+	text-align: center;
+	padding-left:12px;
+	cursor: hand;
+}
+.zzu-btn-open a:hover{
+	color:white;
+}
+.zzu-bid-accredit,
+.zzu-btn-open{
+	float:left;
+}
+.zzu-btn-open{
+	cursor: pointer;
+}
+.zzu-big-rule{
+	margin-top:26px;
+	margin-left:35px;
+	
+}
+.zzu-big-rule h6{
+	padding-top:10px;
+	margin-left:20px;
+	line-height: 36px;
+}
+.zzu-bid-accredit {
+	margin-top: 15px;
+}

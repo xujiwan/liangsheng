@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="baseDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IBaseDao" />
+	</bean>
+	<!-- 失误招领  -->
+	<bean id="foundLostDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IFoundLostDao" />
+	</bean>
+	<bean id="freeClassroomDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IFreeClassroomDao" />
+	</bean>
+	<!-- 首页新闻公告 -->
+	<bean id="newsDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.INewsDao"/>
+	</bean>
+	<!-- 平台公告 -->
+	<bean id="noticeDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.INoticeDao"/>
+	</bean>
+	<bean id="pageDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IPageDao" />
+	</bean>
+	<!-- 最新动态 -->
+	<bean id="recentNewsDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IRecentNewsDao" />
+	</bean>
+	<bean id="userDao" parent="mybatisDao">
+		<property name="mapperInterface" value="cn.edu.zzu.dao.IUserDao" />
+	</bean>
+</beans>

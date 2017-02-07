@@ -1,0 +1,80 @@
+@charset "utf-8";
+.zzu-leftnav-attribute {
+	width: 310px;
+	height: 50px;
+	background-color: #d2d2d2;
+	font-size: 16px;
+	padding-top: 14px;
+}
+
+.zzu-right-box td {
+	height: 60px;
+	border: 1px solid #F00;
+}
+
+.zzu-table tr:nth-child(even) {
+	background-color: #d2d2d2;
+}
+
+
+/*.zzu-leftnav-attribute:hover{
+	background-color:#f5f5f5;
+}*/
+
+.zzu-table>tbody>tr>td {
+	
+	border: 1px solid #666666;
+	width:128px;
+}
+
+.zzu-leftnav-bg {
+	background-color: #f5f5f5;
+}
+
+.zzu-rightbox-detail table {
+	color: #000000;
+	background-color: #d2d2d2;
+	height: 40px;
+}
+
+.zzu-rightbox-detail table td {
+	border: 1px solid #F00;
+}
+
+.zzu-left-nav,
+.zzu-right-box {
+	float: left;
+}
+.zzu-right-box{
+    width: 890px;
+	background-color: #f5f5f5;
+	padding-left: 60px;
+    padding-right: 60px;
+}
+.zzu-rightbox-detail{
+
+    margin-top: 30px;
+
+}
+.zzu-invite-text {
+    line-height: 1.8;
+}
+.zzu-mb40{
+	margin-bottom: 40px;
+}
+.zzu-btn-mail{
+	margin-top:80px;
+	color:white;
+	line-height: 40px;
+	width:260px;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: #999999;
+	margin-bottom: 80px;
+}
+.zzu-leftNav{
+	cursor: pointer;
+}
+.zzu-table>tbody>tr>td  {
+    text-align: center;
+    vertical-align: middle;

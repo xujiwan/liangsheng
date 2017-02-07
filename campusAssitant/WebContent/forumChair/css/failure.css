@@ -1,0 +1,20 @@
+@charset "UTF-8";
+*{
+	display: block;
+}
+.zzu-failure-container img{
+	
+	width:306px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:40px;
+}
+.zzu-failure-container .zzu-failure{
+	color:#ed272e ;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	width:190px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:15px;
+}

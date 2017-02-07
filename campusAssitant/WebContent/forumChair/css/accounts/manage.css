@@ -1,0 +1,440 @@
+@charset "utf-8";
+
+/* CSS Document */
+.zzu-page-account {
+	background-color: #F5F5F5;
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.zzu-tac {
+	margin-top: 40px;
+}
+
+.zzu-f20 {
+	font-size: 20px;
+	margin-left: 26px;
+	padding-top: 10px;
+}
+
+.zzu-btn-large {
+	line-height: 1.33;
+	padding: 8px 35px;
+	font-size: 16px;
+}
+
+.zzu-btn-larger {
+	line-height: 1.5;
+	padding: 13px 24px;
+	font-size: 20px;
+}
+
+.zzu-mt60 button {
+	border-radius: 20px;
+	width: 140px;
+}
+
+.zzu-btn-large:hover {
+	color: #FFF;
+}
+
+.zzu-account-tab a:hover, .zzu-account-tab a.active {
+	background-color: #ed272e;
+	border-bottom: solid 1px #ed272e;
+	color: #FFFFFF;
+}
+
+a.active, a:focus, a:hover {
+	color: #565656;
+}
+
+/*设置*/
+.zzu-account-manage h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: normal;
+	position: relative;
+	color: #434343;
+	transition: all 0.2s ease-in;
+}
+
+.zzu-account-manage h3 .zzu-serialNumber {
+	font-size: 12px;
+	margin-right: 20px;
+	opacity: .6;
+	color: #b8b7b7;
+}
+
+.zzu-ipt-text {
+	padding: 14px 25px;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-w300 {
+	width: 300px;
+}
+
+.zzu-btn-confirm {
+	background: #ed272e;
+	border-radius: 20px;
+	color: #FFFFFF;
+	width: 140px;
+	height: 40px;
+	line-height: 24px;
+	transition: all 0.2s;
+	margin-bottom: 40px;
+}
+
+.zzu-btn-top {
+	margin-top: 70px;
+}
+
+.zzu-btn-confirm:hover {
+	opacity: .85;
+}
+
+.zzu-collapseThree-btnTop button {
+	margin-top: 40px;
+}
+
+.zzu-collapseFive-btnTop button {
+	margin-top: 40px;
+}
+
+.zzu-reset-pwd .zzu-tips {
+	height: 50px;
+	line-height: 50px;
+}
+
+.zzu-table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: none;
+}
+
+.zzu-table input {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.btn {
+	border: none;
+	font-size: 14px;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+
+.zzu-tips span {
+	margin-left: 105px;
+	margin-right: 105px;
+}
+
+.zzu-operate button {
+	margin-bottom: 50px;
+}
+
+.zzu-set-title h3 {
+	font-size: 16px;
+	position: relative;
+}
+
+.zzu-set-title h3:hover {
+	color: #ed272e;
+}
+
+.zzu-button .zzu-mt60 {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.zzu-button btn {
+	font-size: 16px;
+}
+
+.zzu-yzm-mobile {
+	position: relative;
+	padding: 14px 10px 14px 25px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-yzm-mobile input {
+	border: none;
+	padding-right: 105px;
+}
+
+.zzu-yzm-mobile img {
+	position: absolute;
+    width: 95px;
+    height: 48px;
+    right: 1px;
+    top: 50%;
+    margin-top: -24px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.zzu-yzm-mobile .btn {
+	position: absolute;
+	margin-top: -15px;
+	top: 50%;
+	white-space: nowrap;
+	right: 10px;
+}
+
+.zzu-btn-gray {
+	font-size: 12px;
+	border-radius: 15px;
+	background-color: #7d7d7d;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+
+.zzu-btn-gray:hover {
+	color: #FFFFFF;
+	background-color: #8a8a8a;
+}
+
+.zzu-btn-gray:focus {
+	color: #FFFFFF;
+}
+
+.zzu-binding-phone {
+	height: 100px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+.zzu-tips {
+	margin-top: 20px;
+}
+
+.zzu-binding-mail {
+	padding-bottom: 60px;
+}
+
+.zzu-relate-wechat .zzu-icon-relate {
+	background-image:
+		url(../../images/accounts/account_index/sprite_sub.png);
+}
+
+.zzu-icon-relate {
+	width: 103px;
+	height: 103px;
+	background-position: 0 -117px;
+}
+
+.icon {
+	background-repeat: no-repeat;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+.icon {
+	display: inline-block;
+}
+
+.zzu-link-wechat {
+	margin-bottom: 10px;
+}
+
+.zzu-btn-link {
+	margin-bottom: 50px;
+}
+
+.zzu-pwd-protect .zzu-question-tit {
+	padding-bottom: 30px;
+}
+
+.zzu-f16 {
+	font-size: 16px;
+}
+
+.zzu-select {
+	display: inline-block;
+	padding: 14px 25px;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-error-info {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.zzu-select.small {
+	height: 40px;
+	padding: 8px 20px;
+	font-size: 12px;
+}
+
+.zzu-select.large {
+	font-size: 30px;
+	height: 60px;
+	border-radius: 30px;
+}
+
+.zzu-select select {
+	height: 20px;
+	border: none;
+	font-size: 14px;
+	width: 100%;
+}
+
+.zzu-question-ipt .zzu-tar, .zzu-question-ipt .zzu-tal {
+	float: left;
+}
+
+.zzu-select {
+	margin-left: 270px;
+}
+
+.zzu-tal input {
+	margin-right: 260px;
+}
+
+.zzu-question-tit {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.zzu-pwd-protect .zzu-text-gray {
+	margin-top: 50px;
+}
+
+.panel-title {
+	padding-bottom: 20px;
+	margin: 0;
+	padding: 0
+}
+
+.panel-heading h3:hover, .panel-heading h3:active {
+	color: #ed272e;
+}
+
+.panel-heading {
+	height: 82px;
+}
+
+.panel-group .panel+.panel {
+	margin-top: -5px;
+}
+
+.zzu-set-title {
+	padding-left: 30px;
+	width: 1170px;
+	height: 82px;
+	padding-top: -20px;
+}
+
+.zzu-set-title .zzu-identifier {
+	content: '';
+	width: 16px;
+	height: 2px;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: -10px;
+}
+
+.zzu-set-title .zzu-tag {
+	width: 2px;
+	height: 16px;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 1107px;
+	margin-top: -17px;
+}
+
+.zzu-bgcolor {
+	width: 1200px;
+	height: 80px;
+	overflow: hidden;
+	background-color: red;
+}
+
+.panel-heading h4 {
+	padding: 0;
+	margin-top: -10px;
+}
+
+.zzu-set-title h3 {
+	height: 82px;
+	padding-top: 30px;
+}
+
+.zzu-btn-statusTitle {
+	display: block;
+	margin-top: -30px;
+}
+
+.zzu-btn-identifier span {
+	display: block;
+	padding-top: -80px;
+}
+
+.zzu-bg-color {
+	color: red;
+}
+
+.zzu-btn {
+	border: none;
+	font-size: 16px;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+.zzu-rightBtn-gray{
+	background-color:#7d7d7d;
+	height:50px;
+	width:100px;
+	border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:white;
+ 
+    display: block;
+}
+.zzu-rightBtn-gray:hover{
+	color:white;
+	
+}
+.zzu-yzm-mobile .zzu-rightBtn-gray {
+	position: absolute;
+	margin-top: -25px;
+	top: 50%;
+	white-space: nowrap;
+	right: 0px;
+	padding-top:15px;
+}
+.zzu-yzm-left{
+	margin-right: 48px;
+}
+

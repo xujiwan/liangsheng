@@ -1,0 +1,62 @@
+@charset "utf-8";
+.zzu-page-account {
+	background-color: #f5f5f5;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+.zzu-container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+button{
+	margin:0;
+	background:none;
+	border: none;
+	font-size: 16px;
+}
+.zzu-btn .zzu-open{
+	background-color: #ed272e;
+	border-radius: 5px;
+	width:100px;
+	height:30px;
+	color:white;
+	
+}
+.zzu-logo{
+	width:350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.rernittance-logo{
+	width:300px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+.zzu-container p{
+	margin-top:80px;
+	width:380px;
+	margin-left:auto;
+	margin-right: auto;
+	font-size: 18px;
+	
+}
+
+.zzu-btn{
+	margin-top: 60px;
+	width:200px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-bottom: 60px;
+}
+.zzu-btn button{
+	margin-left: 20px;
+}
+.zzu-container-bgcolor{
+	background-color:white;
+	
+}

@@ -1,0 +1,188 @@
+@charset "utf-8";
+h4 {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0
+}
+
+.zzu-table-bidList {
+	background-color: #f5f5f5;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+.zzu-set-status {
+	background: white;
+	margin-top: 40px;
+	height: 80px;
+}
+
+.zzu-status-box {
+	padding-top: 30px;
+	margin-left: 20px;
+}
+
+.zzu-set-status span {
+	color: red;
+	padding-left: 30px;
+}
+
+.zzu-set-status button {
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.zzu-set-status button:hover {
+	color:#ed272e;
+	font-size:16px;
+}
+
+.zzu-table-head {
+	background-color: #F4F4F4;
+}
+
+.zzu-table-head span {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.zzu-table-body span {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 10px;
+}
+.zzu-table-body {
+	background-color: white;
+	height: 80px;
+	border-bottom: 1px solid #F3F3F3;
+	border-left: 1px solid #F3F3F3;
+	border-right: 1px solid #F3F3F3;
+}
+
+.zzu-clear {
+	clear: both;
+}
+
+.zzu-bid-container {
+	background-color: white;
+	height: 300px;
+	margin-top:60px;
+
+}
+
+.zzu-big-rule {
+	margin-top: 30px;
+	margin-left: 20px;
+	padding-top:20px;
+}
+
+.zzu-big-rule h6 {
+	padding-top: 10px;
+	margin-left: 20px;
+	line-height: 36px;
+}
+
+.zzu-table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: none;
+	margin-bottom: 40px;
+}
+
+.zzu-ipt-text {
+	padding: 14px 25px;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+	
+}
+
+.zzu-w300 {
+	width: 300px;
+}
+
+.zzu-set-bidMoney span {
+	width: 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.zzu-radiobox-noLimit,
+.zzu-radiobox-limit {
+	float: left;
+	margin-top: 22px;
+}
+
+.zzu-radiobox-noLimit {
+	margin-left: 300px;
+}
+
+.zzu-radiobox-limit {
+	margin-left: 200px;
+}
+
+.zzu-input-text input {
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+.zzu-set-bidMoney {
+	background-color: white;
+}
+
+.zzu-radio-box {
+	margin-bottom: 10px;
+	height:62px;
+}
+
+.zzu-btn-confirm {
+	background: #ed272e;
+	border-radius: 20px;
+	color: #FFFFFF;
+	width: 140px;
+	height: 40px;
+	line-height: 24px;
+	transition: all 0.2s;
+	font-size: 16px;
+}
+
+
+.zzu-btn-confirm:hover,
+ .zzu-btn-confirm:focus{
+	opacity: .85;
+	color: white;
+	outline:none;
+}
+.zzu-operate {
+	float: left;
+	margin-left: 350px;
+	margin-bottom: 40px;
+}
+
+.zzu-operate button {
+	margin-left: 60px;
+}
+
+.zzu-wrong-hint{
+	padding-top:16px;
+	color:#ed272e;
+}
+.zzu-error-info{
+	margin-top:10px;
+}
+.zzu-error-limit-info{
+	color: #ED272E;
+	font-size: 16px;
+	margin-bottom: 20px;
+}

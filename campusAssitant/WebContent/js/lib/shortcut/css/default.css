@@ -1,0 +1,323 @@
+.shortcut {
+    width: 50px;
+    height: 283px;
+    background-color: transparent;
+    z-index: 9999;
+}
+.shortcut-position {
+    position: fixed;
+    right: 0;
+    bottom:25px;
+}
+.shortcut-middle {
+    margin: 0;
+    padding: 0;
+}
+.shortcut-middle li {
+    list-style-type: none;
+    margin-top: 1px;
+    display: block;
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+}
+.shortcut-middle .shortcut-favorite {
+    background:  #696969 center  no-repeat  url("../imgs/favorite_icon.png") ;
+}
+.shortcut-middle .shortcut-qq {
+    background:  #696969 center  no-repeat  url("../imgs/qq_icon.png") ;
+}
+.shortcut-middle .shortcut-feedback {
+    background:  #696969 center  no-repeat  url("../imgs/feedback_icon.png") ;
+}
+.shortcut-middle .shortcut-feedbackT {
+    background:  #696969 center  no-repeat  url("../imgs/feedback_iconT.png") ;
+}
+.shortcut-middle .shortcut-gotop {
+    background:  #696969 center  no-repeat  url("../imgs/gotop_icon.png") ;
+    height: 50px;
+    /*visibility: hidden;*/
+    display: none;
+}
+.shortcut-middle  .scroll {
+    display: block;
+}
+.shortcut-middle .favorite,
+.shortcut-middle .qq,
+.shortcut-middle .feedback,
+.shortcut-middle .feedbackT{
+    position: relative;
+    top:0;
+    left: 0;;
+    width: 40px;
+    height: 40px;
+    line-height: 14px;
+    padding: 10px 5px;
+    background: #f0282e;
+    color: #fff;
+    font: 14px "Microsoft YaHei","微软雅黑" ;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    margin:0;
+    box-sizing:content-box;
+}
+
+.shortcut-middle .gotop{
+    position: relative;
+    top:0;
+    left: 0;;
+    width: 40px;
+    height: 40px;
+    line-height: 14px;
+    padding: 5px 5px;
+    background: #f0282e;
+    color: #fff;
+    font: 14px "Microsoft YaHei","微软雅黑" ;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    margin: 0;
+    box-sizing:content-box;
+}
+.shortcut-middle .hover .favorite,
+.shortcut-middle .hover .qq,
+.shortcut-middle .hover .feedback,
+.shortcut-middle .hover .feedbackT,
+.shortcut-middle .hover .gotop{
+    display: block;
+}
+
+/*内容盒子样式*/
+.content-box {
+    position:fixed;
+    /*bottom: 85px;*/
+    bottom: 205px;
+    right: 58px;
+    width: 275px;
+    /*height: 400px;*/
+    height: 60px;
+    background: #d6d6d6;
+    font: 14px "Microsoft YaHei","微软雅黑";
+    border: 0;
+    /*border-radius: 25px;*/
+    z-index: 9999;
+    display: none;
+}
+.content-box:after{
+    content: "";
+    position: absolute;
+    bottom: 23px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #d6d6d6;
+    border-bottom: 8px solid transparent;
+    z-index: 9999;
+}
+.content-boxT {
+    position:fixed;
+    /*bottom: 85px;*/
+    bottom: 205px;
+    right: 58px;
+    width: 115px;
+    /*height: 400px;*/
+    height: 60px;
+   
+    font: 14px "Microsoft YaHei","微软雅黑";
+    border: 0;
+    /*border-radius: 25px;*/
+    z-index: 9999;
+    display: none;
+}
+/*.content-boxT:after{
+    content: "";
+    position: absolute;
+    bottom: 23px;
+    left: 115px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #d6d6d6;
+    border-bottom: 8px solid transparent;
+    z-index: 9999;
+}*/
+.content-box-tool {
+    width: 275px;
+    height: 25px;
+    margin: 0 auto;
+}
+.content-box-tool .content-box-tool-close {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+.content-box-body {
+    width: 275px;
+    height: 375px;
+}
+.msg-box {
+    position:fixed;
+    /*bottom: 85px;*/
+    bottom: 205px;
+    right: 58px;
+    width: 275px;
+    height: 60px;
+    background: #696969;
+    font: 14px "Microsoft YaHei","微软雅黑";
+    border: 0;
+    /*border-radius: 25px;*/
+    z-index: 9999;
+    display: none;
+}
+.msg-box:after{
+    content: "";
+    position: absolute;
+    bottom: 23px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #696969;
+    border-bottom: 8px solid transparent;
+    z-index: 9999;
+}
+.msg-box-notice {
+    background: #696969;
+    height: 60px;
+    color: #fff;
+    border:#d6d6d6;
+    font: 16px "Microsoft YaHei","微软雅黑";
+    /*border-radius: 25px;*/
+}
+.msg-box-notice-content {
+    padding: 23px;
+    line-height: 14px;
+    text-align: center;
+}
+.feedback-box {
+    background: #d6d6d6;
+    position: absolute;
+    height: 375px;
+    width: 210px;
+    margin: 0 30px;
+    color: #fff;
+    border:#d6d6d6;
+    /*border-radius: 25px;*/
+}
+.feedback-box-title {
+    position: relative;
+    text-align: center;
+    color: #ee272e;
+    font-weight: bold;
+    font-size: 24px;
+}
+.feedback-title {
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 32px;
+    line-height: 30px;
+    float: left;
+}
+.feedback-title-prefix {
+    display: block;
+    position: relative;
+    width: 28px;
+    float: left;
+    top:15px;
+    border:1px solid #ee272e;
+}
+.feedback-title-suffix {
+    display: block;
+    position: relative;
+    float: left;
+    width: 28px;
+    top: 15px;
+    border:1px solid #ee272e;
+}
+.feedback-concat {
+    position: relative;
+    width: 210px;
+    height: 30px;
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(200,200,200);
+    color: #696969;
+    border: 0px;
+}
+.feedback-concat-input {
+    width: 98%;
+    height: 100%;
+    border: 1px solid #ffc3c3;
+    background-color: #fff;
+    color: #696969;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.feedback-content {
+    position: relative;
+    width: 210px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+}
+.feedback-content-label {
+    position: relative;
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ee272e;
+}
+.feedback-content-input {
+    position: relative;
+    width: 210px;
+    height: 170px;
+    border: 0;
+    background-color: rgb(200,200,200);;
+}
+.feedback-content-textarea {
+    width: 98%;
+    height: 100%;
+    border: 1px solid #ffc3c3;
+    background-color: #fff;
+    color: #696969;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    resize: none;
+}
+.feedback-error {
+    position: relative;
+    width: 210px;
+    height: 18px;
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ee272e;
+}
+.feedback-tool {
+    position: relative;
+    width: 210px;
+    float: left;
+    margin-top: 10px;
+}
+.feedback-tool-btn {
+    width: 100px;
+    height: 35px;
+    margin: 0 55px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #ee272e;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

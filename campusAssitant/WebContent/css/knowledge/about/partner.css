@@ -1,0 +1,52 @@
+@charset "utf-8";
+.zzu-border{
+	border:1px solid #E5E5E5;
+	width:300px;
+	height:120px;
+	font-weight: bold;
+	padding-top:50px;
+	font-size: 16px;
+}
+.zzu-ml130{
+	margin-left:130px;
+	margin-bottom: 30px;
+}
+
+.zzu-partner:hover{
+	color:#ED272E;
+	cursor: pointer;
+	border:1px solid #ED272E;
+	background-color:#fff6f8;
+}
+.zzu-partner-after{
+	color:#ED272E;
+	border:1px solid #ED272E;
+	background-color:#fff6f8;
+}
+.zzu-partner-introduce{
+	padding-left:130px;
+	padding-right:120px;
+	word-break:break-all;
+	word-wrap:break-word; word-break:normal;
+	height:300px;
+}
+.container .logo img{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:20px;
+	margin-bottom: 20px;
+	display: block;
+	
+}
+.container .logo{
+	height:100px;
+}
+.container .assure-partner .logo img{
+	width:300px;	
+}
+.bank-partner img{
+	width:208px;
+}
+.hf-partner img{
+	
+}

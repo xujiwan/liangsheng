@@ -1,0 +1,542 @@
+@charset "utf-8";
+
+.zzu-page-account {
+	background-color: #f5f5f5;
+	padding-bottom: 80px;
+}
+
+/*二级导航*/
+.zzu-account-panel {
+	height: 80px;
+	background-color: #696969;
+}
+
+.zzu-account-panel .zzu-info {
+	margin-right: 60px;
+	padding-left: 30px;
+	background-color: #7d7d7d;
+	width: 260px;
+	height: 100%;
+	color: #cdcdcd;
+}
+
+.zzu-account-panel .zzu-info .zzu-avatar {
+	width: 52px;
+	height: 52px;
+	border: solid 1px #939393;
+	border-radius: 50%;
+}
+
+.zzu-account-panel .zzu-info .zzu-avatar img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.zzu-account-panel .zzu-info .zzu-name {
+	color: #fffefe;
+	font-size: 16px;
+}
+
+.zzu-account-panel .zzu-info .zzu-level-bar {
+	width: 60px;
+	height: 10px;
+	position: relative;
+	display: inline-block;
+	background-color: #a6a6a6;
+}
+
+.zzu-account-panel .zzu-info .zzu-level-bar em {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 10px;
+	background-color: #FFFFFF;
+}
+
+.zzu-page-account .zzu-account-nav {
+	line-height: 80px;
+	height: 100%;
+}
+
+.zzu-page-account .zzu-account-nav li {
+	float: left;
+	margin-right: 60px;
+	position: relative;
+	border-bottom: solid 3px transparent;
+	transition: all 0.2s;
+	height: 83px;
+}
+
+.zzu-page-account .zzu-account-nav li.active, .zzu-page-account .zzu-account-nav li:hover
+	{
+	border-bottom-color: #ed272e;
+}
+
+.zzu-page-account .zzu-account-nav li a:link, .zzu-page-account .zzu-account-nav li a:visited
+	{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+/*三级导航*/
+.zzu-account-tab {
+	background-color: #FFFFFF;
+	font-size: 0;
+	border-bottom: solid 1px #e5e5e5;
+	height: 61px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zzu-account-tab a {
+	display: inline-block;
+	box-sizing: content-box;
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 50px;
+	font-size: 20px;
+	border-bottom: solid 1px transparent;
+}
+
+.zzu-account-tab a:hover, .zzu-account-tab a.active {
+	background-color: #ed272e;
+	border-bottom: solid 1px #ed272e;
+	color: #FFFFFF;
+}
+
+/**
+ * 账户中心div表格
+ */
+.zzu-table-dataList {
+	background-color: #FFFFFF;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-number-left {
+	margin-left: 25px;
+}
+
+.zzu-type-left {
+	margin-left: 74px;
+}
+
+.zzu-balance-left {
+	margin-left: 35px;
+}
+
+.zzu-table-dataList .zzu-table-head {
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+	padding: 0px 50px;
+	background-color: #FFFFFF;
+}
+
+.zzu-status-right {
+	margin-right: 74px;
+}
+
+.zzu-table-dataList .zzu-table-headMain span {
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+	padding-left: 25px;
+	padding-right: 62px;
+	background-color: #FFFFFF;
+}
+
+.zzu-tabel-bodyM span {
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	padding-left: 25px;
+	padding-right: 62px;
+	background-color: #FFFFFF;
+}
+
+.zzu-margin {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.zzu-table-dataList .zzu-table-body {
+	background-color: #fff;
+	padding: 40px 50px;
+	border-bottom: solid 1px #e5e5e5;
+	max-height: 550px;
+	overflow-y:auto;
+}
+
+.zzu-table-dataList .zzu-table-bodyBox {
+	background-color: #fff;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-table-dataList .zzu-table-bodyMain {
+	background-color: #fff;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-table-dataList .zzu-table-bodyMain .row {
+	height: 40px;
+	line-height: 40px;
+}
+
+.zzu-table-body .zzu-margin {
+	margin-bottom: 20px;
+}
+
+;
+.zzu-table-dataList .zzu-table-body .row {
+	height: 40px;
+	line-height: 40px;
+}
+
+.zzu-table-dataList .zzu-col-repaymentAmount {
+	padding-left: 10px;
+}
+
+.zzu-table-dataList .zzu-line {
+	position: relative;
+	padding-right: 10px;
+}
+
+.zzu-table-dataList .zzu-line:after {
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 0;
+	border-left: solid 1px #d4d4d4;
+	border-right: solid 1px #e8e8e8;
+	top: 50%;
+	margin-top: -5px;
+	right: -1px;
+}
+
+.zzu-tal {
+	text-align: left;
+}
+
+.zzu-tar {
+	text-align: right;
+}
+
+.zzu-table-detail{
+	margin-bottom: 10px;
+}
+
+/*底部 共1234记录*/
+.zzu-pt40 {
+	padding-top: 40px;
+}
+
+.zzu-pb40 {
+	padding-bottom: 40px;
+}
+
+.zzu-m-pagination .zzu-pagination {
+	font-size: 0;
+}
+
+.zzu-m-pagination .zzu-pagination a {
+	transition: all 0.2s ease-in;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	margin-right: 1px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #f1f1f1;
+}
+
+.zzu-m-pagination .zzu-pagination a:link, .zzu-m-pagination .zzu-pagination a:visited
+	{
+	color: #727272;
+}
+
+.zzu-m-pagination .zzu-pagination a:hover {
+	color: #ed272e;
+}
+
+.zzu-m-pagination .zzu-pagination a.active {
+	background-color: #ed272e;
+	color: #FFFFFF;
+}
+
+.zzu-m-pagination .zzu-pagination a.disabled {
+	background-color: #f1f1f1;
+	color: #727272;
+}
+
+.zzu-fr {
+	float: right;
+}
+
+.zzu-m-pagination .zzu-count {
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.zzu-mr60 {
+	margin-right: 60px;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev {
+	position: relative;
+	margin-right: 20px;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev i {
+	transition: all 0.2s ease-in;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	margin-top: -3px;
+	margin-left: -3px;
+	font-size: 0;
+	border-style: solid;
+	border-width: 3px 7px 3px 0;
+	border-color: transparent #a5a5a5 transparent transparent;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev:hover {
+	background-color: #ed272e;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev:hover i {
+	border-color: transparent #FFFFFF transparent transparent;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev.disabled {
+	background-color: #f1f1f1;
+}
+
+.zzu-m-pagination .zzu-pagination .zzu-prev.disabled i {
+	border-color: transparent #a5a5a5 transparent transparent;
+}
+
+.zzu-m-pagination .zzu-pagination .next {
+	position: relative;
+	margin-left: 20px;
+}
+
+.zzu-m-pagination .zzu-pagination .next i {
+	transition: all 0.2s ease-in;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	margin-top: -3px;
+	margin-left: -3px;
+	font-size: 0;
+	border-style: solid;
+	border-width: 3px 0 3px 7px;
+	border-color: transparent transparent transparent #a5a5a5;
+}
+
+.zzu-m-pagination .zzu-pagination .next:hover {
+	background-color: #ed272e;
+}
+
+.zzu-m-pagination .zzu-pagination .next:hover i {
+	border-color: transparent transparent transparent #FFFFFF;
+}
+
+.zzu-m-pagination .zzu-pagination .next.disabled {
+	background-color: #f1f1f1;
+}
+
+.zzu-m-pagination .zzu-pagination .next.disabled i {
+	border-color: transparent transparent transparent #a5a5a5;
+}
+
+.zzu-chart-footer {
+	background-color: #FFF;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**
+ * 列表查询条件
+ */
+.zzu-page-account .zzu-item,
+.zzu-invest-time,
+.zzu-invest-status, 
+.zzu-condition {
+	float: left;
+}
+
+.zzu-condition h6, .zzu-condition a {
+	text-decoration: none;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.zzu-invest-status {
+	margin-left: 10px;
+}
+
+.zzu-querylist .zzu-item {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+h6 {
+	color: #b8b7b7;
+	padding-top: 15px;
+	float: left;
+}
+
+.zzu-querylist a:hover, .zzu-querylist a.active {
+	color: #ed272e;
+}
+
+.zzu-date-control {
+	border: 1px solid #ccc;
+	border-radius: 0;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	outline: 0 none;
+	padding: 2px 10px;
+	margin: 0 5px;
+	width: 70px;
+}
+.zzu-time-control{
+	width: 90px;
+}
+
+.zzu-separator-pd {
+	padding: 0 5px;
+}
+
+.zzu-querylist {
+	overflow: hidden;
+	line-height: 62px;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #FFF;
+	margin-top: 60px;
+	padding-left: 30px;
+}
+
+.zzu-invest-time {
+	padding-left: 35px;
+	position: relative;
+}
+
+.zzu-trade {
+	color: #db4949;
+}
+
+.zzu-text-link:link, .zzu-text-link:visited {
+	color: #434343;
+}
+
+.zzu-text-link:hover {
+	color: #ed272e;
+}
+
+.zzu-investment {
+	background-color: #FFF;
+	height: 526px;
+	margin-top: 60px;
+}
+
+.zzu-investment .zzu-querylist {
+	padding-left: 30px;
+}
+
+.zzu-f26 {
+	font-size: 26px;
+}
+
+.col-num, .col-money, .col-way {
+	width: 400px;
+}
+
+.col-num, .col-money {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-record-count .table td {
+	padding-left: 60px;
+	height: 100px;
+}
+
+.zzu-money-voverview span {
+	margin-bottom: 30px;
+}
+/*投资列表*/
+.zzu-tableTitle-color{
+	background-color:#f7f6f9;
+
+}
+.zzu-tableTitle-color span {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;	
+	padding-bottom: 20px;
+	
+
+}
+.zzu-table-dataList-bodyMain {
+	background-color: #f9faf3;
+	border-bottom: solid 1px #e5e5e5;
+	margin-bottom: 10px;
+	
+}
+.zzu-table-dataList-bodyMain .row{
+	line-height: 3;
+	background-color:#fcfcf4;
+	border-bottom: solid 1px #e5e5e5;
+	
+	
+}
+.zzu-table-body .zzu-tableList-bodyMain .row {
+	height: 75px;
+	line-height: 75px;
+	
+}
+.zzu-tableTitle-color span {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;	
+	padding-bottom: 20px;
+}
+.zzu-invest .zzu-tableTitle-headMain span
+{
+	margin-left:30px;
+	margin-right: 30px;
+}
+.zzu-table-dataList-bodyMain .zzu-tablelist-detail span{
+	margin-left:30px;
+	margin-right: 30px;
+	
+}
+.zzu-financing-mainlist {
+	height: 40px;
+	line-height: 40px;
+	background-color: #fcfcf4;
+	margin-bottom: 10px;
+}
+.zzu-financing .zzu-table-body {
+	background-color: #fff;
+	padding-left:-40px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-invest-table-datalist .zzu-table-body {
+	background-color: #fff;
+	padding: 40px 50px;
+	border-bottom: solid 1px #e5e5e5;
+}

@@ -1,0 +1,617 @@
+@charset "UTF-8";
+.carousel-control img {
+	margin-top: 160px;
+}
+
+.zzu-carousel {
+	width: 100%;
+	height: 340px;
+}
+
+.zzu-carousel .carousel-indicators {
+	position: absolute;
+	text-align: center;
+}
+
+.zzu-carousel .carousel-indicators>li {
+	display: inline-block;
+	margin-left: 7px;
+	margin-right: 7px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -999em;
+	border-radius: 50%;
+	border: 1px solid #FFF;
+	transition: all .2s ease-in;
+}
+
+.zzu-carousel .item .zzu-innerOne {
+	background: url(../forumChair/images/img/banner_text_01.jpg) center center no-repeat;
+	width: 100%;
+	height: 340px;
+}
+
+.zzu-carousel .item .zzu-innerTwo {
+	background: url(../forumChair/images/img/banner_text_02.jpg) center center no-repeat;
+	width: 100%;
+	height: 340px;
+}
+
+.zzu-carousel .item .zzu-innerThr {
+	background: url(../forumChair/images/img/banner_text_03.jpg) center center no-repeat;
+	width: 100%;
+	height: 340px;
+}
+
+.zzu-carousel .item .zzu-inner {
+	position: relative;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.zzu-carousel .item .zzu-btn-viewMore {
+	position: absolute;
+	z-index: 999;
+	left: 50%;
+	bottom: 97px;
+	margin-left: -70px;
+	color: #FFF;
+	text-align: center;
+}
+.zzu-left-btn img {
+	margin-left: -90px;
+}
+
+.zzu-right-btn img {
+	margin-left: 90px;
+}
+
+.zzu-btn-viewMore:link,
+.zzu-btn-viewMore:visited {
+	color: #FFF;
+}
+
+.zzu-btn-viewMore:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 2px solid #FFF;
+}
+
+.zzu-btn-viewMore {
+	border-radius: 20px;
+	font-size: 16px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	width: 140px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	transition: all .2s;
+}
+
+.zzu-section-slogan {
+	padding-top: 42px;
+	padding-bottom: 50px;
+}
+
+.zzu-icon-earnings,
+.zzu-icon-group,
+.zzu-icon-security {
+	width: 60px;
+	height: 60px;
+}
+
+.zzu-icon-group {
+	background-position: -13px -11px;
+}
+
+.zzu-icon-security {
+	background-position: -90px -11px;
+}
+
+.zzu-icon-earnings {
+	background-position: -163px -11px;
+}
+
+.zzu-section-slogan .col-xs-4 {
+	text-align: center;
+}
+
+.zzu-section-slogan .col-xs-4 h2 {
+	color: #434343;
+	font-size: 24px;
+	line-height: 60px;
+}
+
+.zzu-section-slogan .col-xs-4 p {
+	width: 226px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 24px;
+	color: #888;
+}
+
+.zzu-section-about {
+	padding-top: 65px;
+	background: #f5f5f5;
+	padding-bottom: 80px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-m-tit {
+	text-align: center;
+}
+
+.zzu-m-tit h2 {
+	color: #434343;
+	font-size: 24px;
+	line-height: 44px;
+}
+
+.zzu-m-tit h2:after {
+	content: "";
+	display: block;
+	width: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid #ed272e;
+}
+
+.zzu-m-tit p {
+	color: #888;
+	font-size: 14px;
+	line-height: 3;
+}
+
+.zzu-section-about .container .row .col-xs-4>h3 {
+	height: 40px;
+	line-height: 40px;
+	background-color: #FFF;
+	padding-left: 23px;
+	color: #919191;
+	position: relative;
+	font-size: 16px;
+	
+}
+.zzu-section-about .container .row .col-xs-4{
+	width:370px;
+	margin-left:15px;
+	margin-right: 15px;
+}
+.zzu-more {
+	position: absolute;
+	width: 21px;
+	height: 10px;
+	right: 18px;
+	top: 50%;
+	margin-top: -5px;
+}
+
+.zzu-section-about .container .row .col-xs-4 li a:hover {
+	color: #ed272e;
+}
+
+.zzu-section-about .container .row .col-xs-4 .zzu-more:hover:before {
+	background-color: #ed272e;
+}
+
+.zzu-section-about .container .row .col-xs-4 .zzu-more:hover:after {
+	border-left-color: #ed272e;
+}
+
+.zzu-section-about .container .row .col-xs-4 .zzu-more:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+	width: 13px;
+	height: 2px;
+	background: #cfcfcf;
+	transition: all .2s;
+}
+
+.zzu-section-about .container .row .col-xs-4 .zzu-more:after {
+	content: '';
+	position: absolute;
+	left: 13px;
+	top: 50%;
+	margin-top: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: transparent transparent transparent #cfcfcf;
+	border-width: 5px 0 5px 8px;
+	transition: all .2s;
+}
+
+.zzu-section-about .zzu-notice li {
+	font-size: 14px;
+	margin-top: 14px;
+	line-height: 37px;
+	height: 38px;
+	overflow: hidden;
+	border-bottom: solid 1px #dcdcdc;
+	position: relative;
+	padding-left: 25px;
+	padding-right: 15px;
+}
+
+.zzu-section-about .zzu-notice li:before {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background: #ed272e;
+	border-radius: 50%;
+	left: 10px;
+	top: 50%;
+	margin-top: -2px;
+}
+
+.zzu-section-about .zzu-notice li {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.zzu-section-about .zzu-service .zzu-service-borrow,
+.zzu-section-about .zzu-service .zzu-service-invest
+	{
+	border-bottom: solid 1px #e5e5e5;
+	border-radius: 0;
+	height: 40px;
+	line-height: 40px;
+	margin: 4px 0 0;
+	padding: 0 23px;
+	font-weight: 700;
+	font-size: 12px;
+	padding-left: 2.2em;
+	cursor: pointer;
+	position: relative;
+}
+
+
+.zzu-section-about .zzu-service .zzu-service-borrow {
+	color: #FFF;
+	background: #ed272e;
+}
+
+.zzu-section-about .zzu-service .zzu-service-borrow span {
+	position: absolute;
+	background: rgba(255, 255, 255, .6);
+	width: 16px;
+	height: 2px;
+	top: 50%;
+	right: 23px;
+	left: auto;
+	margin-top: -1px;
+}
+
+.zzu-section-about .zzu-service .zzu-service-describe {
+	height: 160px;
+	border: none;
+	background: #FFF;
+	box-sizing: content-box;
+	line-height: 24px;
+	font-size:14px;
+	margin: 0px 1px 4px 1px;
+	padding: 13px 27px;
+	border-bottom: solid 1px #e5e5e5;
+}
+.zzu-section-about .zzu-service-box .zzu-service-describe p{
+	font-size:12px;
+}
+
+.zzu-clearfix:before,
+.zzu-clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.zzu-clearfix:after {
+	clear: both;
+}
+
+.zzu-section-newuser {
+	padding-top: 65px;
+	padding-bottom: 80px;
+}
+
+.zzu-section-newuser .zzu-newuser-data {
+	height: 240px;
+	padding-top: 33px;
+	border: 1px solid #e5e5e5;
+}
+
+.zzu-section-newuser .zzu-newuser-data h3 {
+	margin-bottom: 25px;
+}
+
+.zzu-section-newuser .zzu-newuser-data .zzu-load {
+	width: 50%;
+	padding-left: 40px;
+}
+
+.zzu-section-newuser .zzu-newuser-data .zzu-text-gray {
+	font-size: 14px;
+}
+
+.zzu-section-newuser .zzu-newuser-data .zzu-text-emphasis {
+	color: #db4949;
+}
+
+.zzu-section-newuser .zzu-newuser-data p {
+	line-height: 26px;
+}
+
+.f14 .col-xs-6 {
+	padding: 0px;
+}
+
+.col-xs-6 .zzu-mt40 {
+	text-align: center;
+}
+
+.zzu-pic .zzu-icon {
+	width: 40px;
+	height: 40px;
+	background-image: url(../invest/images/img/sprite_index.png);
+	background-repeat: no-repeat;
+}
+.zzu-section-media {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	border-bottom: solid 1px #e5e5e5;
+}
+.zzu-section-classroom{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	/*border-bottom: solid 1px #e5e5e5;*/
+}
+/*.zzu-section-classroom .container .zzu-m-tit p{
+	 width:1300px;
+}*/
+.zzu-section-bid {
+	padding-bottom: 80px;
+	padding-top: 65px;
+	border-bottom: solid 1px #e5e5e5;
+	background: #f9f9f5;
+}
+.zzu-section-bid .container{
+	padding-left:28px;
+}
+.zzu-left-btn img {
+	margin-left: -90px;
+}
+
+.zzu-right-btn img {
+	margin-left: 90px;
+}
+
+@media screen and (min-width: 768px) {
+	.zzu-btn-banner {
+		bottom: 20px;
+	}
+}
+
+.panel-group {
+	width: 400px;
+}
+
+.panel-heading {
+	padding: 0px;
+}
+
+.panel-body {
+	padding: 0px;
+	height: 181px;
+}
+
+.panel-title .zzu-tag {
+	width: 2px;
+	height: 16px;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 370px;
+	margin-top: -27px;
+}
+
+.panel-title .zzu-identifier {
+	content: '';
+	width: 16px;
+	height: 2px;
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 363px;
+	margin-top: -20px;
+}
+
+.panel-group .panel+.panel {
+	margin-top: -5px;
+}
+
+.zzu-title-bgcolor {
+	background-color: #ed272e;
+}
+
+.zzu-title-color {
+	color: white;
+}
+
+.zzu-titleColor {
+	background-color: #ed272e;
+}
+
+.media {
+	margin-top: 0px;
+}
+.col-xs-5 .zzu-logo a img{
+	margin: 60px,auto;
+}
+.zzu-section-about .zzu-service .zzu-title-top{
+	margin-top:-4px;
+	border-top: 1px solid #E5E5E5;
+}
+.zzu-table {
+    width:1200px;
+  /*   background-color:#ADDED9; */
+    border-collapse:collapse;
+    margin:0 auto;
+    opacity: 0.5;
+    column-count:5;
+}
+.more-line{
+ 	column-count:6;	
+}
+.zzu-table .td{
+    border:0px solid #ccc;
+    background-color:#ADDED9;
+    text-align:center;
+    height: 3em;
+	line-height: 1.6em;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight:bold;/* 加粗 */
+	width:200px;
+	padding:10px;
+	/* margin:10px,auto; */
+	list-style-type:none;
+}
+
+.zzu-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+.clear {
+	clear: both
+}
+.product-box{
+    position: relative;
+    float:left;
+    width: 270px;
+    height: 310px;
+    margin-left:16px;
+    margin-top:14px;
+    border: 1px solid #eee;
+}
+.product-box:hover{
+    border-color: #f40;
+}
+.inner-info{
+    width: 222px;
+    height: 290px;
+    margin: 15px auto;
+}
+.line-f40{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f40;
+}
+.text-title{
+    font-size: 13px;
+    font-weight: bold;
+}
+.inner-photo{
+    margin-top: 12px,auto;
+    width: 168px;
+    height: 190px;
+    text-align: center;
+    background: #f6f6f6;
+    padding:5px,auto;
+}
+.inner-photo .introduce{
+	background-color: #4E4949;
+	width:223px;
+	height: 50px;
+}
+.introduce  h1{
+    margin: 0px 0 3px 0;
+    font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight:bold;//加粗
+}
+.need{
+	padding-top:7px;
+}
+.introduce a{
+	margin-top:14px;
+    color: #eaeae7;
+}
+
+.introduce a:hover{
+    color: #f40;
+}
+/* .introduce span{
+    color: #9c9c9c;
+} */
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 68px;
+}
+.zzu-classroom-status {
+	float:left;
+	margin-left: 10px;
+}
+.zzu-condition{
+	padding-top: 23px;
+}
+.zzu-condition h5, .zzu-condition a {
+	text-decoration: none;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+h5 {
+	color: #b8b7b7;
+	padding-top: 15px;
+	float: left;
+}
+a {
+	color: #424242;
+	text-decoration: none;
+	transition: all 0.3s ease-in;
+	outline: none;
+}
+
+.active, a:focus, a:hover {
+	color: #ff7543;
+	border-color: #ed272e;
+	text-decoration: none;
+	outline: none
+}
+
+.hidefocus {
+	outline: none
+}
+.zzu-classroom-status{
+	width:486px;
+	height:60px;
+}
+

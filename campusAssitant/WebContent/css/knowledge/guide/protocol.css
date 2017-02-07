@@ -1,0 +1,60 @@
+@charset "utf-8";
+body{
+	font-family:"微软雅黑";
+	background-color:#f3f3f3;
+}
+.wjs-protocol-container{
+	width:978px;
+	margin-top:120px;
+	margin-bottom: 120px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.wjs-protocol-box{
+	
+	position: relative;
+	width:978px;
+	
+}
+.wjs-protocol-text{
+	position: absolute;
+	background-color:white;
+	margin-bottom: 120px;
+	width:965px;
+	border:1px solid #dedede;
+	padding-left:45px;
+	padding-right: 45px;
+	margin-left: 10px;
+	padding-top: 80px;
+	z-index: 0;
+	padding-bottom: 30px;
+}
+.wjs-protocol-text h4{
+	color:#ED272E;
+	font-size: 16px;
+	line-height:30px;
+	border-bottom: 1px #dedede dashed;
+}
+.wjs-protocol-text p {
+	font-size: 12px;
+	line-height: 26px;
+	text-indent:2em;
+	margin:0;
+}
+
+.wjs-protocol-text p span{
+	font-weight: bold;
+}
+.wjs-protocol-box img{
+	z-index:3;
+	position: absolute;
+	margin-top: 30px;
+}
+.wjs-protocol-title {
+	color:white;
+	font-size:22px ;
+	position: absolute;
+	z-index: 4;
+	margin-top: 40px;
+    margin-left: 50px;
+}

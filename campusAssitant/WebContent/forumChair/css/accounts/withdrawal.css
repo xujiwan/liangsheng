@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.zzu-container-box {
+	background-color: white;
+	overflow: hidden;
+}
+
+.zzu-cash-wrap {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.zzu-cash-wrap .zzu-m-tit h2 {
+	font-size: 20px;
+}
+
+.zzu-cash-wrap .zzu-balance {
+	height: 167px;
+	padding-bottom: 5px;
+	background: url(../../images/accounts/withdrawal/border.png) 0 bottom repeat-x #df2027;
+	font-size: 14px;
+	line-height: 162px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 70px;
+}
+
+.zzu-cash-wrap .zzu-balance .zzu-unit {
+	color: #df2027;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 45px;
+	background-color: #FFFFFF;
+	line-height: 45px;
+	font-size: 35px;
+}
+
+.zzu-cash-wrap .zzu-balance .zzu-num {
+	font-size: 50px;
+}
+
+.zzu-btn {
+	border: none;
+	font-size: 14px;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+
+.zzu-btn .icon {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.zzu-btn span {
+	vertical-align: middle;
+}
+
+.zzu-btn-gray {
+	font-size: 12px;
+	
+	background-color: #7d7d7d;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+	color: #FFFFFF;
+	border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px
+}
+
+.zzu-btn-gray:hover {
+	color: #FFFFFF;
+	background-color: #8a8a8a;
+}
+
+.zzu-btn-gray:focus {
+	color: #FFFFFF;
+}
+
+.zzu-m-tit {
+	text-align: center;
+}
+
+.zzu-m-tit h2 {
+	color: #434343;
+	font-size: 24px;
+	line-height: 44px;
+}
+
+.zzu-m-tit h2:after {
+	content: "";
+	display: block;
+	width: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid #ed272e;
+}
+
+.zzu-m-tit p {
+	color: #888888;
+	font-size: 14px;
+	line-height: 3;
+}
+
+.zzu-cash-wrap .zzu-m-tit h2 {
+	font-size: 20px;
+}
+
+.zzu-ipt-text {
+	padding: 14px 25px;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-ipt-text.large {
+	font-size: 30px;
+	height: 60px;
+	border-radius: 30px;
+}
+
+.zzu-cash-wrap .zzu-m-tit h2 {
+	font-size: 20px;
+}
+
+.zzu-ipt-yzm {
+	position: relative;
+	padding: 14px 25px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-ipt-yzm input {
+	border: none;
+	padding-right: 75px;
+}
+
+
+.zzu-ipt-yzm img {
+    position: absolute;
+    width: 95px;
+    height: 48px;
+    right: 1px;
+    top: 50%;
+    margin-top: -24px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.zzu-yzm-mobile {
+	position: relative;
+	padding: 14px 10px 14px 25px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-yzm-mobile input {
+	border: none;
+	padding-right: 105px;
+}
+
+.zzu-yzm-mobile .zzu-btn {
+	position: absolute;
+	margin-top: -26px;
+	top: 50%;
+	white-space: nowrap;
+	right: 1px;
+}
+
+.zzu-btn-confirm {
+	background: #ed272e;
+	border-radius: 20px;
+	color: #FFFFFF;
+	width: 140px;
+	height: 40px;
+	line-height: 24px;
+	transition: all 0.2s;
+}
+
+.zzu-btn-confirm:hover {
+	opacity: .85;
+}
+
+.zzu-btn-confirm a {
+	color: #FFF;
+}
+
+.zzu-btn-confirm a:hover {
+	text-decoration: none;
+	color: #FFF
+}
+
+.zzu-btn-large {
+	line-height: 1.33;
+	padding: 8px 35px;
+	font-size: 16px;
+}
+
+.zzu-btn-larger {
+	line-height: 1.5;
+	padding: 13px 24px;
+	font-size: 20px;
+}
+
+.zzu-pop-wrap {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease-in;
+}
+
+.zzu-pop-wrap.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.zzu-pop-wrap .zzu-pop-box>.zzu-hd {
+	height: 120px;
+	line-height: 120px;
+	background-color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.zzu-pop-wrap .zzu-pop-box>.zzu-hd .zzu-btn-close {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #ed272e;
+	border-radius: 50%;
+	right: -20px;
+	top: -20px;
+}
+
+.zzu-setcard-wrap {
+	background-color: #f5f5f5;
+	padding: 60px;
+	overflow: hidden;
+}
+
+.zzu-setcard-wrap .zzu-list-wrap {
+	height: 435px;
+	overflow: hidden;
+	position: relative;
+	box-sizing: content-box;
+	width: 100%;
+	padding-right: 10px;
+}
+
+.zzu-list-wrap {
+	height: 435px;
+	overflow: hidden;
+	position: relative;
+	box-sizing: content-box;
+	width: 100%;
+	padding-right: 10px;
+}
+
+.zzu-carts-list {
+	position: absolute;
+	width: 720px;
+	padding-top: 10px;
+}
+
+.zzu-carts-list li {
+	background-color: #FFFFFF;
+	width: 320px;
+	float: left;
+	margin-right: 40px;
+	height: 180px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	position: relative;
+}
+
+.zzu-carts-list li.active:before {
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	background-color: #ed272e;
+	right: -10px;
+	top: -10px;
+	border-radius: 50%;
+}
+
+.zzu-carts-list li.active:after {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	right: -5px;
+	top: -3px;
+	background: url(../../images/accounts/withdrawal/sprite_sub.png) -64px -102px no-repeat;
+}
+
+.zzu-carts-list li .hd {
+	position: relative;
+	padding: 15px 30px;
+	height: 64px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-carts-list li .zzu-pic {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.zzu-carts-list li .zzu-date {
+	padding: 0 30px 20px;
+}
+
+.zzu-text-graylight {
+	color: #b8b7b7;
+}
+
+.zzu-pop-wrap .zzu-pop-box>.hd {
+	height: 120px;
+	line-height: 120px;
+	background-color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.zzu-bd form {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zzu-ipt-yzm {
+	margin-right: 50px;
+}
+
+.zzu-btn-large:hover {
+	color: #FFF;
+}
+.zzu-mt60 .zzu-yzm-mobile .zzu-btn-gray{
+	font-size: 12px;
+    border-radius: 15px;
+    background-color: #7d7d7d;
+    display: inline-block;
+    height: 30px;
+    line-height: 50px;
+    padding: 0 15px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    width:100px;
+    height:50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top:-25px;
+}
+.zzu-mt60 .zzu-yzm-mobile .zzu-btn {
+	position: absolute;
+	top: 50%;
+	white-space: nowrap;
+	right: 0px;
+}

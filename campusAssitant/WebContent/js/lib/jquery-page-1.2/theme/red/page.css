@@ -1,0 +1,107 @@
+/*CSS redPageCss style pagination*/
+
+.redPageCss {
+	font-size: 0;
+}
+
+.redPageCss a:link, .redPageCss a:visited {
+	color: #727272;
+}
+
+.redPageCss a {
+	transition: all .2s ease-in;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	margin-right: 1px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #f1f1f1;
+}
+
+.redPageCss .red-prev {
+	position: relative;
+	margin-right: 20px;
+}
+
+.redPageCss a:hover {
+	color: #ed272e;
+}
+
+.redPageCss a.active {
+	background-color: #ed272e;
+	color: #FFFFFF;
+}
+
+.redPageCss a.disabled {
+	background-color: #f1f1f1;
+	color: #727272;
+}
+
+.redPageCss .red-prev i, .redPageCss .red-next i {
+	transition: all 0.2s ease-in;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -3px;
+	margin-left: -3px;
+	border-style: solid;
+}
+
+.redPageCss .red-prev i {
+	border-width: 3px 7px 3px 0;
+	border-color: transparent #a5a5a5 transparent transparent;
+}
+
+.redPageCss .red-prev:hover {
+	background-color: #ed272e;
+}
+
+.redPageCss .red-prev:hover i {
+	border-color: transparent #FFFFFF transparent transparent;
+}
+
+.redPageCss .red-prev.disabled {
+	background-color: #f1f1f1;
+}
+
+.redPageCss .red-prev.disabled i {
+	border-color: transparent #a5a5a5 transparent transparent;
+}
+
+.redPageCss .red-next {
+	position: relative;
+	margin-left: 20px;
+}
+
+.redPageCss .red-next i {
+	border-width: 3px 0 3px 7px;
+	border-color: transparent transparent transparent #a5a5a5;
+}
+
+.redPageCss .red-next:hover {
+	background-color: #ed272e;
+}
+
+.redPageCss .red-next:hover i {
+	border-color: transparent transparent transparent #FFFFFF;
+}
+
+.redPageCss .red-next.disabled {
+	background-color: #f1f1f1;
+}
+
+.redPageCss .red-next.disabled i {
+	border-color: transparent transparent transparent #a5a5a5;
+}
+
+.red-count {
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.red-text-emphasis {
+	color: #db4949;
+}

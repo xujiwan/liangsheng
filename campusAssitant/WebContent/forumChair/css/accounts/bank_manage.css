@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*银行卡管理*/
+
+.zzu-cards-manage {
+	overflow: hidden;
+}
+
+.zzu-cards-manage .zzu-carts-list {
+	float: left;
+	width: 960px;
+}
+
+.zzu-cards-manage .zzu-carts-list li {
+	background-color: #FFFFFF;
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+.zzu-cards-manage .zzu-carts-list li .zzu-hd {
+	position: relative;
+	padding: 20px 30px;
+	height: 80px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-text-gray {
+	color: #b8b7b7;
+}
+
+.zzu-btn-del {
+	position: absolute;
+	display: inline-block;
+	background-color: #e4e4e4;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+}
+
+.zzu-btn-del:after {
+	content: "";
+	width: 12px;
+	height: 3px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	margin-top: -2px;
+	left: 50%;
+	margin-left: -6px;
+}
+
+.zzu-btn-del:hover {
+	background-color: #ed272e;
+}
+
+.zzu-carts-list li .zzu-hd .zzu-btn-del {
+	right: 34px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.zzu-carts-list li .zzu-hd .zzu-btn-del.active {
+	background-color: #ed272e;
+}
+
+.zzu-carts-list li .zzu-pic {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.zzu-carts-list li .zzu-date {
+	padding: 0 30px 20px;
+}
+
+.zzu-side {
+	width: 220px;
+	float: right;
+	background-color: #FFFFFF;
+}
+
+.zzu-side .zzu-hd {
+	padding: 0 30px;
+	line-height: 60px;
+	background-color: #7d7d7d;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.zzu-side .zzu-bd {
+	padding: 10px 30px;
+}
+
+.zzu-side .zzu-bd dt {
+	line-height: 60px;
+	height: 60px;
+	border-bottom: solid 1px #e5e5e5;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.zzu-side .zzu-bd dd a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 18px;
+	transition: all 0.2s;
+}
+
+.zzu-side .zzu-bd dd a:hover {
+	color: #ed272e;
+}
+
+.zzu-side .zzu-bd dd.active a {
+	background-color: #ed272e;
+	color: #FFFFFF;
+}
+
+.zzu-carts-list li.zzu-last {
+	text-align: center;
+	line-height: 240px;
+}
+
+.zzu-carts-list li.zzu-last .zzu-add-card {
+	position: relative;
+	display: inline-block;
+	padding-left: 74px;
+	line-height: 55px;
+	font-size: 16px;
+	color: #888888;
+}
+
+.zzu-carts-list li.zzu-last .zzu-add-card:hover {
+	color: #9c9c9c;
+}
+
+.zzu-carts-list li.zzu-last .zzu-add-card i {
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border: solid 1px #d9d9d9;
+	border-radius: 50%;
+}
+
+.zzu-carts-list li.zzu-last .zzu-add-card i:before {
+	content: '';
+	position: absolute;
+	width: 3px;
+	height: 19px;
+	top: 50%;
+	left: 50%;
+	margin-top: -9px;
+	margin-left: -1px;
+	background-color: #b2b2b2;
+}
+
+.zzu-carts-list li.zzu-last .zzu-add-card i:after {
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 19px;
+	top: 50%;
+	left: 50%;
+	margin-left: -9px;
+	margin-top: -1px;
+	background-color: #b2b2b2;
+}
+
+
+/*添加银行卡*/
+
+.zzu-pop-wrap {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease-in;
+}
+
+.zzu-pop-wrap.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.zzu-pop-wrap .zzu-pop-box>.zzu-hd {
+	height: 120px;
+	line-height: 120px;
+	background-color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.zzu-pop-wrap .zzu-pop-box>.zzu-hd .zzu-btn-close {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: #ed272e;
+	border-radius: 50%;
+	right: -20px;
+	top: -20px;
+}
+
+.chart-head {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-page-account .zzu-addcard-wrap {
+	background-color: #f5f5f5;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.zzu-table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: none;
+}
+
+.zzu-ipt-text {
+	padding: 14px 25px;
+	line-height: 20px;
+	height: 50px;
+	font-size: 14px;
+	color: #434343;
+	border: solid 1px #cccccc;
+	border-radius: 25px;
+}
+
+.zzu-text-gray {
+	color: #888888;
+}
+
+.zzu-addcard-table .zzu-text-tips {
+	line-height: 46px;
+	padding-bottom: 14px;
+}
+
+.btn {
+	border: none;
+	font-size: 14px;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+
+.zzu-btn-confirm {
+	background: #ed272e;
+	border-radius: 20px;
+	color: #FFFFFF;
+	width: 140px;
+	height: 40px;
+	line-height: 24px;
+	transition: all 0.2s;
+}
+
+.zzu-btn-confirm:hover {
+	opacity: .85;
+}
+
+.zzu-addcard-table .zzu-btn-confirm {
+	margin-top: 36px;
+}
+
+.m-table td {
+	height: 55px;
+	font-size: 14px;
+}
+
+.zzu-tac {
+	text-align: center;
+}
+
+td,
+th {
+	display: table-cell;
+	vertical-align: inherit;
+}
+
+input {
+	font-family: "microsoft yahei", Helvetica, Arial, sans-serif;
+}
+
+.zzu-btn-confirm a {
+	color: #FFF;
+	font-size: 16px;
+}
+
+.zzu-btn-confirm a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.zzu-btn-large {
+	line-height: 1.33;
+	padding: 8px 35px;
+	font-size: 16px;
+}

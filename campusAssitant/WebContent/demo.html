@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图片轮播</title>
+		<style type="text/css">
+      .photo {
+        list-style-type: none;
+        border: 2px solid #ccc;
+        width: 480px;
+        height: 360px;
+        margin:0;
+        padding:0;
+      }
+      .photo li {
+        width: 480px;
+        height: 360px;
+        margin: 0;
+        padding: 0;
+      }
+      .show{
+        display: block;
+      }
+      .hide{
+        display: none;
+      }
+    </style>
+    <script type="text/javascript">
+      var timer;
+      var index = 0;
+      function start() {
+        timer = setInterval(function(){
+          var ul = document.getElementById("photo");
+          var lis = ul.getElementsByTagName("li");
+          for(var i=0;i<lis.length;i++) {
+            lis[i].className = "hide";
+          }
+          index++;
+          lis[index%lis.length].className = "show";
+        }, 1000);
+      }
+      function stop() {
+        clearInterval(timer);
+      }
+    </script>
+    
+	</head>
+    
+  <body onload="start();">
+    <h1>图片轮播</h1>
+    <ul class="photo" id="photo"
+      onmouseover="stop();" onmouseout="start();">
+      <li class="show">
+        <img src="/campusAssitant/WebContent/WEB-INF/images/campus/f1.jpg">
+      </li>
+      <li class="hide">
+        <img src="/campusAssitant/WebContent/WEB-INF/images/campus/f2.jpg">
+      </li>
+      <li class="hide">
+        <img src="/campusAssitant/WebContent/WEB-INF/images/campus/f3.jpg">
+      </li>
+      <li class="hide">
+        <img src="/campusAssitant/WebContent/WEB-INF/images/campus/f4.jpg">
+      </li>
+    </ul>
+    
+	</body>
+</html>

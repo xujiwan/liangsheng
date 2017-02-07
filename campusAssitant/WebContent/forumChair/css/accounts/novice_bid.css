@@ -1,0 +1,768 @@
+@charset "UTF-8";
+
+body {
+	
+}
+
+.zzu-loan-deal-show:link, .zzu-loan-deal-show:visited, .zzu-meta-list {
+	color: #888;
+}
+
+.zzu-page-account .zzu-bimg {
+	background: url(../../images/accounts/novice_bid/noviceBid.jpg) top
+		center no-repeat;
+	height: 400px;
+}
+
+/*.zzu-bimg .zzu-page-banner{
+	background:url(../../images/accounts/novice_bid/noviceBid.jpg) top center no-repeat;
+	width: 100%;
+	height:500px;
+	
+}*/
+.zzu-loan-deal-show {
+	position: relative;
+	font-size: 14px;
+	padding: 0 15px;
+}
+
+.zzu-loan-deal-show:before {
+	content: "";
+	top: 50%;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	margin-top: -4px;
+	font-size: 0;
+	border-style: solid;
+	border-width: 3px 0 3px 7px;
+	border-color: transparent transparent transparent #ed272e;
+}
+
+.zzu-loan-deal-show:hover {
+	color: #ed272e;
+}
+
+.zzu-detail-content {
+	padding-left: 0px;
+}
+
+.zzu-detail-content .zzu-text-emphasis {
+	font-size: 40px;
+}
+
+.zzu-product-headline .zzu-text-emphasis {
+	color: white;
+}
+
+.zzu-detail-content .zzu-loan-amount .col-xs-3, .zzu-detail-content .zzu-loan-amount .col-xs-4
+	{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.zzu-detail-content .zzu-limit-date {
+	padding: 50px 10px;
+}
+
+.zzu-detail-content .zzu-limit-date .zzu-time {
+	display: inline-block;
+	font-size: 14px;
+	color: #FFF;
+	background-color: #888;
+	padding: 0 10px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 15px;
+}
+
+.zzu-meta-list .row {
+	line-height: 26px;
+}
+
+.zzu-meta-list {
+	width: 700px;
+}
+
+.zzu-meta-list .zzu-tag {
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	
+	padding-left: 20px;
+}
+
+.zzu-meta-list .zzu-text {
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 20px;
+	overflow: hidden;
+	padding-top: 18px;
+}
+
+.zzu-loan-info .zzu-evaluation-list {
+	line-height: 30px;
+	font-size: 14px;
+	color: #888;
+	background-color: white;
+}
+
+.zzu-loan-info .zzu-evaluation-list .zzu-title {
+	line-height: 44px;
+	font-size: 16px;
+	color: #434343;
+}
+
+.zzu-credit .zzu-table {
+	text-align: center;
+	table-layout: fixed;
+	border: none;
+}
+
+.zzu-credit .zzu-table th {
+	height: 60px;
+	background-color: #696969;
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.zzu-credit .zzu-table td {
+	height: 55px;
+	font-size: 14px;
+	vertical-align: middle;
+	border: none;
+}
+
+.zzu-text-link-gray:link, .zzu-text-link-gray:visited {
+	color: #888;
+	text-decoration: underline;
+}
+
+.zzu-text-link-gray:hover {
+	color: #ed272e;
+}
+
+.zzu-detail-side {
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.zzu-detail-side .zzu-loan-conform {
+	padding: 20px 15px 20px 28px;
+	border: 1px solid #e5e5e5;
+}
+
+.zzu-loan-conform .row {
+	line-height: 40px;
+}
+
+.zzu-loan-conform .zzu-number-box {
+	position: relative;
+	width: 250px;
+	margin: 0px;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-minus {
+	cursor: pointer;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	background-color: #888;
+	right: 34px;
+	top: 50%;
+	margin-top: -9px;
+	border-radius: 50%;
+	transition: all .2s;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-minus:before {
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 2px;
+	left: 50%;
+	top: 50%;
+	margin-left: -4px;
+	margin-top: -1px;
+	background-color: #FFF;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-add {
+	transition: all .2s;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 50%;
+	right: 11px;
+	top: 50%;
+	margin-top: -9px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	background-color: #ed272e;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-add:before, .zzu-loan-conform .zzu-number-box .zzu-add:AFTER
+	{
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: #FFF;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-add:before {
+	width: 8px;
+	height: 2px;
+	margin-left: -4px;
+	margin-top: -1px;
+}
+
+.zzu-loan-conform .zzu-number-box .zzu-add:AFTER {
+	height: 8px;
+	width: 2px;
+	margin-left: -1px;
+	margin-top: -4px;
+}
+
+.zzu-loan-conform .zzu-btn-invest {
+	height: 39px;
+	padding: 7px 15px;
+	color: #ed272e;
+}
+
+.zzu-loan-repayment {
+	padding-top: 120px;
+	position: relative;
+	height: 180px;
+}
+
+.zzu-earnings {
+	padding-top: 100px;
+}
+
+.zzu-loan-repayment:after {
+	content: "";
+	position: absolute;
+	top: -40px;
+	width: 320px;
+	height: 163px;
+	background: url(../../images/img/repaying.png) no-repeat;
+}
+
+.row .zzu-table-th {
+	color: #393939;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.zzu-case-coupon .row .zzu-table-th, .zzu-table-striped .row .zzu-table-th,
+	.zzu-cash-coupon-info .row .zzu-table-th {
+	height: 60px;
+	line-height: 60px;
+}
+
+.zzu-table-head {
+	background-color: #777777;
+}
+
+.zzu-table-head, .zzu-table-body .row:nth-child(even) {
+	background-color: #f5f5f5;
+}
+
+.zzu-table-striped .zzu-table-body {
+	overflow-y: auto;
+}
+
+.zzu-table-bid-records .zzu-table-body {
+	overflow-y: auto;
+}
+
+.zzu-cash-coupon-info .zzu-table-body {
+	overflow-y: auto;
+}
+
+.zzu-case-coupon .row .col-xs-4, .zzu-table-striped .row .col-xs-4,
+	.zzu-table-bid-records .row .col-xs-4 {
+	text-align: center;
+	vertical-align: middle;
+	color: #888;
+	height: 55px;
+	font-size: 14px;
+	line-height: 50px;
+}
+
+.zzu-case-coupon .row .col-xs-4, .zzu-table-bid-records .row .col-xs-4 {
+	height: 55px;
+	line-height: 40px;
+}
+
+.zzu-case-coupon .zzu-table-body .col-xs-4:nth-child(2) {
+	padding-top: 5px;
+	padding-left: 15px;
+}
+
+.zzu-novice-bgimg {
+	background-repeat: no-repeat;
+}
+
+.zzu-user-status {
+	font-size: 12px;
+	color: #000000;
+}
+
+.zzu-cash-ticketBox {
+	cursor: hand;
+}
+
+.zzu-user-status {
+	width: 70px;
+	height: 100px;
+	background-color: #f7ec01;
+	margin-right: 40px;
+}
+
+.zzu-cash-ticketOne, .zzu-cash-ticketTwo {
+	padding-bottom: 10px;
+	width: 380px;
+	height: 105px;
+	background-color: #ff665a;
+	background-image: url(../../images/accounts/novice_bid/cash-left1.jpg);
+	background-repeat:no-repeat;
+}
+
+.zzu-cash-ticket-box .zzu-text-gray .zzu-btn-large{
+	background-color: #ed272e;
+	color: #FFFFFF;
+	line-height: 10px;
+}
+
+.zzu-cash-ticket-box .zzu-text-gray .zzu-btn-large:hover {
+	opacity: .85;
+	color: white;
+}
+
+
+.zzu-cash-ticketTwo .zzu-cash-symbol {
+	color: #f9f9ef;
+}
+
+.zzu-cash-symbol {
+	font-size: 50px;
+	color: white;
+	margin-top: 30px;
+	padding-left: 40px;
+}
+
+.zzu-use-cash {
+	color: white;
+	font-size: 50px;
+	padding-left: 7px;
+}
+
+.zzu-f25 {
+	font-size: 24px;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	position: absolute;
+}
+
+.zzu-cash-date {
+	color: white;
+	padding-top: 40px;
+	position: absolute;
+	padding-left: 10px;
+}
+
+.zzu-f12 {
+	color: white;
+	display: block;
+	padding-left: 80px;
+	opacity: 0.6;
+}
+
+body {
+	position: relative;
+}
+
+.zzu-return-head .zzu_load_title {
+	color: #000000
+}
+
+.zzu-bg-color {
+	background-color: white;
+}
+
+.zzu-table-bid-records {
+	border-left: solid 1px #f67474;
+	border-right: solid 1px #f67474;
+	border-bottom: solid 1px #f67474;
+}
+
+.zzu-product-headline {
+	padding-left: 40px;
+}
+
+.zzu-list-bottom {
+	width: 1200px;
+}
+
+.zzu-detail-side .zzu-product-headline {
+	color: white;
+}
+
+.zzu-record-count {
+	margin-top: -58px;
+	margin-left: 850px
+}
+
+.zzu-novice-bidBox {
+	/*height:300px;*/
+	width: 1200px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.zzu-loan-info .zzu-product-headline, .zzu-loan-info .zzu-evaluation-list
+	{
+	width: 1200px;
+}
+
+.zzu-loan-info .zzu-evaluation-list {
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+/* 还款计划*/
+.zzu-return-color .zzu-product-headline {
+	background-color: #696969;
+}
+
+.zzu-table-striped {
+	margin-bottom: 20px;
+	border-left: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+	border-bottom: solid 1px #dcdcdc;
+}
+
+.zzu-return-color .zzu-table-head {
+	border-bottom: solid 1px #dcdcdc;
+	background-color: #f5f5f5;
+}
+
+.zzu-return-color .zzu-table-head span {
+	background-color: #f5f5f5;
+}
+
+.zzu-return-color .zzu-bottom-line {
+	border-bottom: solid 1px #dcdcdc;
+}
+
+.zzu-return-color .zzu-table-striped span {
+	background-color: #f5f5f5;
+}
+
+/* 投标记录*/
+.zzu-bid-color .zzu-product-headline {
+	background-color: #696969;
+}
+
+.zzu-table-bid-records {
+	border-left: solid 1px #dcdcdc;
+	border-right: solid 1px #dcdcdc;
+	border-bottom: solid 1px #dcdcdc;
+}
+
+.zzu-bid-color .zzu-table-head {
+	border-bottom: solid 1px #dcdcdc;
+}
+
+.zzu-bid-color .zzu-bottom-line {
+	border-bottom: solid 1px #dcdcdc;
+}
+
+.zzu-bid-color .zzu-table-bid-records span {
+	background-color: white;
+}
+
+.zzu-bid-color .zzu-table-head span {
+	background-color: #f5f5f5;
+}
+
+/* 贷款详情*/
+.zzu-loan-info .zzu-product-headline {
+	color: white;
+}
+
+.zzu-loan-info .zzu-product-headline {
+	background-color: #696969;
+}
+
+.zzu-evaluation-list::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #f5f5f5;
+	-webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+
+.zzu-emphasis-bottom {
+	padding-bottom: 20px;
+}
+
+.zzu-novice-bottom {
+	background-color: #696969;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+}
+
+.zzu-return-head {
+	padding-top: 0px;
+	height: 160px;
+	line-height: 0px;
+	width: 782px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.container .zzu-return-head {
+	margin: 0px;
+}
+
+.zzu-cash-symbol {
+	line-height: 105px;
+}
+
+.zzu-return-head .zzu-text-gray {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.zzu-detail-content .zzu-loan-amount {
+	width: 802px;
+	margin: 0px;
+}
+
+.zzu-info {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-ml30 {
+	padding-left: 30px;
+}
+
+.zzu-return-head {
+	float: left;
+}
+
+.zzu-cash-ticket-right {
+	float: right;
+}
+
+.zzu-cash-ticket-right {
+	width: 397px;
+	height: 146px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #dcdcdc;
+	margin-top:14px;
+}
+
+.zzu-cash-ticket-right span {
+	display: block;
+}
+
+.zzu-cash-ticket-right .zzu-date, .zzu-cash-ticket-right .zzu-safeguard,
+	.zzu-cash-ticket-right .zzu-pay {
+	float: left;
+	width: 130px;
+	padding-left: 20px;
+	margin-top: 50px;
+}
+
+.zzu-meta-list span {
+	display: block;
+}
+
+.zzu-meta-list .zzu-Mode, .zzu-meta-list .zzu-meta-listdate {
+	float: left;
+}
+
+.zzu-meta-list {
+	position: absolute;
+	margin-top: -134px;
+	margin-left: 803px;
+	width: 397px;
+	background-color: #f5f5f5;
+	height: 120px;
+}
+
+.zzu-novice-bidBox {
+	position: relative;
+}
+
+.zzu-meta-list .zzu-Mode {
+	width: 220px;
+	margin-top:26px;
+}
+.zzu-meta-list .zzu-meta-listdate{
+	margin-top:26px;
+}
+.zzu-clear {
+	clear: both;
+}
+
+.zzu-clear {
+	clear: both
+}
+
+.zzu-cash-ticket-right .zzu-text {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.zzu-cash-ticket-right .zzu-time {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.zzu-cash-ticket-right .zzu-date-text, .zzu-cash-ticket-right .zzu-time
+	{
+	float: left;
+}
+
+.zzu-product-headline:before {
+	background-color: #696969
+}
+/*可用现金券左右按钮*/
+.zzu-return-head .zzu-fr {
+	display: block;
+	padding-top: 12px;
+	margin-right: 10px;
+}
+
+.zzu_next {
+	margin-left: 10px
+}
+
+.m-page {
+	font-size: 0;
+}
+
+.m-page .zzu-prev {
+	display: inline-block;
+	vertical-align: top;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.m-page .zzu-prev:before, .m-page .zzu-prev.active {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -3px;
+	margin-left: -3px;
+	border-style: solid;
+	border-color: transparent #a5a5a5 transparent transparent;
+	border-width: 3px 6px 3px 0;
+}
+
+.m-page .zzu-prev:hover {
+	background-color: #ed272e;
+}
+
+.m-page .zzu-prev:hover:before {
+	border-color: transparent #FFFFFF transparent transparent;
+}
+
+.m-page .zzu-next {
+	display: inline-block;
+	vertical-align: top;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.m-page .zzu-next:before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -3px;
+	margin-left: -3px;
+	border-style: solid;
+	border-color: transparent transparent transparent #a5a5a5;
+	border-width: 3px 0 3px 6px;
+}
+
+.m-page .zzu-next:hover, .m-page .zzu-next.active {
+	background-color: #ed272e;
+}
+
+.m-page .zzu-next:hover:before, .m-page .zzu-next.active:before {
+	border-color: transparent transparent transparent #FFFFFF;
+}
+
+.zzu-cash-ticketBox .zzu-cash-ticketTwo, .zzu-cash-ticketBox .zzu-cash-ticketOne
+	{
+	float: left;
+	margin-right: 11px;
+	margin-top: 6px;
+}
+.zzu-novice-bidBox .zzu-loan-amount,
+.zzu-meta-list .zzu-info {
+    text-align: left;
+}
+.zzu-table-striped .row .zzu-text-tar,
+.zzu-table-bid-records .row .zzu-text-tar {
+	text-align: right;
+	
+}
+.padding-right{
+	padding-right:150px;
+}
+.zzu-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+.zzu-cash-ticket-box .zzu-text-gray,
+.zzu-cash-ticket-box .zzu-novice-btn{
+	float:left
+}
+.zzu-cash-ticket-box .zzu-novice-btn button{
+	    /* background-color: #f5f5f5; */
+    line-height: 25px;
+    width: 90px;
+    /* color: white; */
+    margin-left: 20px;
+    margin-top: 6px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #ed272e;
+    background-color: none;
+    background: none;
+}
+.zzu-clear{
+	clear:both;
+}

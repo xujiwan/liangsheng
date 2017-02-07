@@ -1,0 +1,129 @@
+.zzu-banner1 {
+	background-image: url(../images/img/banner_text_01.jpg);
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.zzu-banner2 {
+	background-image: url(../images/img/banner_text_02.jpg);
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.zzu-banner3 {
+	background-image: url(../images/img/banner_text_03.jpg);
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.tit {
+    height: 35px;
+   /*  padding-top: 10px; */
+    border-bottom: 1px solid #a0a0a0;
+    line-height: 35px;
+    font-size: 16px;
+    color:red;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.tc2 ul li {
+    display: list-item;
+    margin:0; 
+    padding:0; 
+    list-style-type:none; 
+    text-align: -webkit-match-parent;
+}
+/*页面主题背景样式*/
+body {
+	background-color:#FEFEFE;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+body html {
+	width:100%;
+}
+
+/*套用边框样式*/
+.side {
+	border-bottom: #f1a156 0px solid; 
+	border-left: #999999 1px solid; 
+	border-top: #f1a156 0px solid; 
+	border-right: #999999 1px solid; 
+}
+
+.style1 {color: #FFFFFF}
+.T{
+	background-color: #fffeef;
+}
+.tab{
+	margin-top:-50px;
+}
+.Head {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333333;
+}
+.Article {
+    text-align: left;
+}
+td, tr, span, p, hr{
+    color: #555555;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+HR {
+    color: #696969;
+    height: 1pt;
+    text-align: left;
+}
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.NormalBold{
+	color:#555555;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.Subhead{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: #003366;
+}
+.Normal{
+    color: #555555;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* CSS Document */
+.zzu-transfer{
+	margin-left: 5px;
+}
+.zzu-text-link{
+	margin-right: 5px;
+}
+.zzu-text-link:link,
+.zzu-text-link:visited,
+.zzu-transfer:link,
+.zzu-transfer:visited {
+	color: #434343;
+}
+
+.zzu-text-link:hover,
+.zzu-transfer:hover {
+	color: #ed272e;
+}
+.zzu-financing-table .zzu-table-body {
+    background-color: #fff;
+    padding:none;
+    border-bottom: solid 1px #e5e5e5;
+}
+ .zzu-text-aline-position{
+	text-align:right;
+}
+.zzu-invest-dialog .modal-dialog {
+    margin-top: 200px;
+    width: 600px;
+}
+.zzu-margin {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.zzu-rankOne {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url("../../images/img/sprite_sub.png") -57px -56px no-repeat;
+   margin-left:70px;
+    top: 50%;
+    margin-top: -4px;
+    cursor:pointer;
+}
+.zzu-rankTwo {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url("../../images/img/sprite_sub.png") -76px -56px no-repeat;
+    margin-left:70px;
+    top: 50%;
+    margin-top: -4px;
+    cursor:pointer;
+}
+.zzu-table-dataList .zzu-table-body{
+	padding-top:10px;
+}
+.zzu-rank-hand{
+	cursor: pointer;
+}

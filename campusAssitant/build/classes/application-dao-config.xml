@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+	<!-- 加载属性文件 -->
+	<context:property-placeholder location="classpath:jdbc.properties" ignore-unresolvable="true"/>
+
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxActive" value="20" />
+		<property name="initialSize" value="1" />
+		<property name="maxWait" value="60000" />
+		<property name="minIdle" value="1" />
+
+		<property name="timeBetweenEvictionRunsMillis" value="3000" />
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<property name="validationQuery" value="SELECT 'x'" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+
+		<property name="poolPreparedStatements" value="true" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
+		<property name="proxyFilters">
+			<list>
+				<ref bean="druid-stat-filter" />
+				<ref bean="druid-log-filter"/>
+			</list>
+		</property>
+	</bean>
+ 
+	<bean id="druid-stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
+		<property name="slowSqlMillis" value="1000" />
+		<property name="logSlowSql" value="true" />
+	</bean>
+
+	<bean id="druid-log-filter" class="com.alibaba.druid.filter.logging.Log4jFilter">
+		<property name="connectionLogEnabled" value="false" />
+		<property name="statementLogEnabled" value="false" />
+		<property name="resultSetLogEnabled" value="false" />
+	</bean>
+	 
+	<!-- 配置事物 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<bean id="attributeSource"
+		  class="org.springframework.transaction.interceptor.MatchAlwaysTransactionAttributeSource">
+		<property name="transactionAttribute">
+			<ref bean="transactionAttribute" />
+		</property>
+	</bean>
+	
+		<!-- 配置事物传播属性和切面 -->
+	<bean id="transactionAttribute"
+		  class="org.springframework.transaction.interceptor.DefaultTransactionAttribute">
+		<property name="propagationBehaviorName">
+			<value>PROPAGATION_REQUIRED</value>
+		</property>
+		<property name="isolationLevelName">
+			<value>ISOLATION_DEFAULT</value>
+		</property>
+		<property name="readOnly">
+			<value>false</value>
+		</property>
+		<property name="timeout">
+			<value>5</value>
+		</property>
+	</bean>
+	
+	<!-- 事物切面 -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="insert*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="add*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="edit*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="modify*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="update*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="delete*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="deal*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="process*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="*" read-only="true"/>
+		</tx:attributes>
+	</tx:advice>
+
+	<!-- 配置默认类的哪些方法参与事务 -->
+	<aop:config>
+		<aop:pointcut id="allManagerMethod" expression="execution(public * *..service.*.*(..))"/>
+		<aop:advisor order="2" pointcut-ref="allManagerMethod" advice-ref="txAdvice"/>
+	</aop:config>
+
+
+	<!-- 配置mybatis -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+		<property name="dataSource" ref="dataSource"/>
+		<property name="mapperLocations" value="classpath:cn/edu/zzu/sql/*-mapper.xml"></property>
+	</bean>
+	
+	<bean id="mybatisDao" class="org.mybatis.spring.mapper.MapperFactoryBean" abstract="true" lazy-init="true">
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+</beans>

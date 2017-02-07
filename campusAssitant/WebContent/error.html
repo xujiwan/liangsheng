@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+<base href="/" />
+<meta charset="utf-8">
+<meta name="description" content="对不起，您的操作请求失败!系统将自动跳转到网交所首页。"/>
+<meta name="keywords" content=""/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-title" content="网交所">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<!-- 让360双核浏览器用webkit内核渲染页面================================================== -->
+<meta name="renderer" content="webkit">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="fragment" content="!">
+<meta name="format-detection" content="telephone=no">
+<!-- 让IE浏览器用最高级内核渲染页面 还有用 Chrome 框架的页面用webkit 内核  -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="revised" content="Frank, 2015/10/16">
+<title>出错了</title>
+<link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<!-- Bootstrap样式文件 -->
+<link rel="stylesheet" href="js/lib/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/error.css" />
+</head>
+<body>
+</body>
+<body>
+	<div class="zzu-error">
+		<img src="images/error/error.jpg" />
+		<div class="zzu-errorImg-right">
+			<span class="zzu-rightTop-text"><img src="images/error/toptext.jpg" /></span>
+			<div class="zzu-clear"></div>
+			<span class="zzu-rightBottom-text">不小心就出错啦！</span> <span class="zzu-rightBottom-english">NOT FOUND</span>
+		</div>
+
+	</div>
+	<div class="zzu-clear"></div>
+	<div class="zzu-error-text ">
+		<p id="zzu_error_message">对不起，您的操作请求失败!</p>
+		<span><font id="zzu_time">5</font>系统将自动跳转到网交所首页。</span>
+		<div class="zzu-button">
+			<span>您也可以：</span> <a href="http://www.zzuchina.com/">返回首页</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/lib/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		var message = window.location.hash;
+		if (message) {
+			message = message.substr(message.indexOf("#") + 1);
+			$('#zzu_error_message').html(decodeURI(message));
+		}
+		var i = $('#zzu_time').html();
+		var interal = setInterval(function() {
+			if (i !== 0) {
+				$('#zzu_time').html(i);
+				i--;
+			} else {
+				clearInterval(interal);
+				location.href = 'http://www.zzuchina.com/';
+			}
+		}, 1000);
+	</script>
+</body>
+</html>

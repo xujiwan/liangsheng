@@ -1,0 +1,266 @@
+@charset "utf-8";
+.zzu-lostfound-title span {
+	float: left;
+}
+
+.zzu-container-box .zzu-lostfound {
+	background-image: url(/../../campusAssitant/img/knowledge/about/notice/notice.jpg);
+	width: 391px;
+	height: 273px;
+	margin-top: 20px;
+}
+
+.zzu-lostfound-date {
+	margin-left: 74px;
+	line-height: 2;
+}
+
+.zzu-lostfound-container.zzu-clear {
+	padding-top: 2px;
+	line-height: 1.8;
+	padding-left: 20px;
+	padding-right: 18px;
+}
+
+.zzu-lostfound-title-show {
+	font-size: 16px;
+	padding-left: 20px;
+	line-height: 2;
+	 width:200px; 
+	 white-space:nowrap; 
+	 overflow:hidden; 
+	 text-overflow:ellipsis;
+}
+
+.zzu-lostfound-title {
+	padding-top: 58px;
+}
+
+.zzu-lostfound-btn {
+	margin-left: 270px;
+	cursor: pointer;
+}
+
+.zzu-lostfound {
+	float: left;
+	margin-right: 9px;
+	position:relative
+}
+
+.zzu-shade {
+	background-color: #000000;
+	opacity: 0.2;
+	width: 391px;
+	height: 273px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	 cursor: pointer;
+}
+.zzu-lostfound-load-btn{
+	background-color: #ED272E;
+    line-height: 34px;
+    width: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    cursor: pointer;
+}
+.zzu-mt46{
+	margin-top:46px;
+}
+.zzu-lostfound-name{
+	margin-left:800px;
+}
+.zzu-lostfound-dialog .zzu-lostfound-date{
+	margin-left:745px;
+}
+/*弹窗*/
+.zzu-lostfound-dialog{
+background-image: url(/../../campusAssitant/img/knowledge/about/notice/dialog.jpg);
+/*background-position-y: 8px;*/
+background-repeat: no-repeat;
+width:962px;
+height:483px;
+}
+.modal-content {
+    width: 964px;
+    height:478px;
+}
+.modal-dialog .modal-body{
+	padding-left:0;
+}
+.modal-dialog .modal-header{
+	background-color: white;
+}
+.modal-header{
+	border-bottom: none;
+}
+.modal-body{
+	padding-top:0px;
+}
+.modal-dialog {
+    width: 964px;
+}
+
+.zzu-dialog-lostfound-container{
+	
+	color:#999999;
+}
+.modal-body .zzu-lostfound-container {
+    padding-top: 2px;
+    line-height: 1.8;
+    padding-left:80px;
+	padding-right:70px;
+}
+.modal-body .zzu-dialog-title{
+	color:#000000;
+	font-weight: bold;
+}
+.modal-body .zzu-lostfound-dialog .zzu-lostfound-date {
+    margin-left: 685px;
+}
+.modal-body .zzu-lostfound-name {
+    margin-left: 760px;
+}
+.modal-content{
+	background-color: rgba(0,0,0,0);
+}
+.modal-dialog .modal-header {
+   height: 40px;
+   padding-top:0;
+   background-color:rgba(0,0,0,0);
+ 
+}
+.modal-dialog .zzu-lostfound-title-show {
+	width:962px;
+}
+.zzu-load-text {
+    
+    font-size: 16px;
+}
+.zzu-loading-hidden {
+    display: none;
+}
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 68px;
+}
+/*弹窗*/
+.zzu-notice-dialog{
+background-image: url(/../../campusAssitant/img/knowledge/about/notice/dialog.jpg);
+/*background-position-y: 8px;*/
+background-repeat: no-repeat;
+width:962px;
+height:483px;
+}
+.modal-content {
+    width: 964px;
+    height:478px;
+}
+.modal-dialog .modal-body{
+	padding-left:0;
+}
+.modal-dialog .modal-header{
+	background:none;
+}
+.modal-header{
+	border-bottom: none;
+}
+.modal-body{
+	padding-top:0px;
+}
+.modal-dialog {
+    width: 964px;
+}
+
+.zzu-dialog-notice-container{
+	
+	color:#999999;
+}
+.modal-body .zzu-notice-container {
+    padding-top: 2px;
+    line-height: 1.9;
+    padding-left:80px;
+	padding-right:70px;
+}
+.modal-body .zzu-dialog-title{
+	color:#000000;
+	font-weight: bold;
+}
+.modal-body .zzu-notice-dialog .zzu-notice-date {
+    margin-left: 685px;
+}
+.modal-body .zzu-notice-name {
+    margin-left: 760px;
+}
+.modal-content{
+	background-color: rgba(0,0,0,0);
+}
+.modal-dialog .modal-header {
+   height: 40px;
+   padding-top:0;
+   /*background-color:rgba(0,0,0,0);*/
+ /*  opacity: 0.1;*/
+}
+.modal-dialog .zzu-notice-title-show {
+	width:962px;
+}
+.zzu-load-text {
+    
+    font-size: 16px;
+}
+.zzu-loading-hidden {
+    display: none;
+}
+.zzu-sub-nav .zzu-notice a{
+	color:#ED272E;
+}
+@media (min-width: 768px)
+.modal-content {
+     -webkit-box-shadow: none; 
+    box-shadow: none;
+}
+.modal-content {
+    position: relative;
+    background:none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+     border:none;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+.close{
+	opacity: 0.9;
+	outline: none;
+}

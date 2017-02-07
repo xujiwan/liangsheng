@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="cn.edu.zzu.dao.IRecentNewsDao">
+		<select id="getRecentNews" parameterType="map" resultType="map">
+			select NEW_ID,ISSUE,TIME,DESCRIPTION FROM new where type = '0'
+		</select>
+    	<select id="getRecentNewsPrevDetail" resultType = "map">
+    		select NEW_ID,ISSUE,TIME,DESCRIPTION from new where new_id=#{NEW_ID}
+    	</select>
+   	 	<select id="getRecentNewsNextDetail" resultType = "map">
+    		select NEW_ID,ISSUE,TIME,DESCRIPTION from new where new_id=#{NEW_ID}
+   		 </select>
+    	<select id="getRecentNewsIssue" parameterType="map" resultType = "map">
+    		select NEW_ID,ISSUE,TIME,CONTENT,PREV,NEXT from new where new_id=#{NEW_ID}
+   		</select>
+	</mapper>

@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+a:hover{
+	color: red;
+}
+span{
+	display: block;
+}
+.zzu-left-img,
+.zzu-text-container{
+	float:left;
+	font-family: "微软雅黑";
+}
+.zzu-left-img{
+	width:400px;
+	margin-top: 30px;
+}
+.zzu-text-container{
+	width:410px;
+}
+.zzu-egg-img{
+	width:600px;
+	margin-left:auto;
+	margin-right: auto;
+	
+	display: block;
+}
+.zzu-egg-img img{
+	display: block;
+	padding-top: 50px;
+}
+.zzu-text-container h3{
+	color: red;
+}
+.zzu-text-container span{
+	display: block;
+	line-height: 60px;
+	font-size: 16px;
+}
+.zzu-text-container a{
+	font-size:18px;
+	color:red;
+	text-decoration: none;
+}
+.zzu-text-container{
+	margin-top:30px;
+	margin-left:90px;
+}
+.zzu-container{
+	width:920px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.zzu-clear{
+	clear: both;
+}
+.zzu-egg-leftText,
+.zzu-egg-rightText{
+	position: absolute;
+	float:left;
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 18px;
+}
+
+.zzu-egg-rightText{
+	margin-top: 100px;
+	margin-left:470px;
+	
+	
+}
+.zzu-egg-leftText{
+	margin-top:120px;
+	margin-left:50px;
+	
+}
+
+.zzu-egg-img{
+	position: relative;
+}
+.zzu-page-jump{
+	color:#f97d00;
+}

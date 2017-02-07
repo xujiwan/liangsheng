@@ -1,0 +1,224 @@
+@charset "utf-8";
+body{
+	background: #f9f9f9;
+}
+.zzu-clear{
+	clear:both;
+}
+.zzu-banner{
+	height:440px;
+	width:100%;
+	position: relative;
+	background-image:url(../../images/accounts/borrow_index/banner_man.jpg);
+	background-position: center center;	
+}
+
+.zzu-banner .zzu-banner-mainbox{
+	/*position:absolute;*/
+	width:680px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.zzu-banner .zzu-banner-mainbox .zzu-fund-apply-box{
+	text-align: center;
+	margin-top:34px;
+	width:300px;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+}
+.zzu-btn-box {
+	margin-top:6px;
+}
+.zzu-banner-mainbox .zzu-fund-apply-box input{
+	display: block;
+	border: none;
+	height: 45px;
+	width:298px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding-left:10px;
+}
+.zzu-banner-mainbox .zzu-fund-apply-box .zzu-user-verify{
+	width:149px;	
+}
+.zzu-get-code{
+	display: block;
+	line-height: 45px;
+	width:136px;
+	color:#fe053f;
+	background-color:white;
+}
+.zzu-banner-mainbox .zzu-user-verify ,.zzu-get-code{
+	float: left;
+}
+.zzu-banner-mainbox .zzu-get-code{
+	margin-left:12px;
+	
+}
+.zzu-banner-mainbox .zzu-btn-box button{
+	background-color:#fe053f;
+	color:white;
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;
+	width:298px;
+	line-height: 45px;
+	
+}
+img{
+	margin:0;
+	padding:0
+}
+.zzu-banner .zzu-banner-title{
+	width:680px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top:38px;
+}
+.zzu-banner .zzu-fund-apply-box h1{
+	font-size:26px;
+	margin-bottom: 26px;
+}
+.zzu-banner-man{
+	width:1920px;
+}
+.zzu-banner-man span{
+	display: block;
+	padding:0;margin:0;
+	float:left
+}
+.zzu-banner-man .zzu-man-left,
+.zzu-banner-man .zzu-man-right{
+	float:left;
+}
+.zzu-banner-man .zzu-man-right{
+	margin-left: 385px;
+}
+.zzu-banner-man .zzu-banner-man1{
+	margin-top:80px;
+}
+.zzu-banner-man .zzu-banner-man3,
+.zzu-banner-man .zzu-banner-man6{
+	margin-top:117px;
+}
+.zzu-banner-man .zzu-banner-man4,
+.zzu-banner-man .zzu-banner-man5{
+	margin-top:267px;
+}
+.zzu-banner-man .zzu-banner-man8{
+	margin-top:40px;
+}
+.zzu-m-tit h2 {
+    color: #434343;
+    font-size: 24px;
+    line-height: 44px;
+}
+.zzu-m-tit p {
+    color: #888;
+    font-size: 14px;
+    line-height: 3;
+}
+.zzu-m-tit {
+    text-align: center;
+}
+.zzu-product-background{
+	background: white;
+}
+.zzu-section-financing {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    
+}
+.zzu-m-tit h2:after {
+    content: "";
+    display: block;
+    width: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #ed272e;
+}
+.zzu-service-box .col-xs-3{
+	width:227px;
+}
+.zzu-service-box .zzu-service-smallbox .zzu-con{
+	margin-left:33px;
+	padding-left:40px;
+	padding-right: 20px;
+	border:solid 1px #fe053f;
+	border-radius: 6px;
+	line-height: 24px;
+	height:256px;
+}
+.zzu-service-box .zzu-service-smallbox img{
+	position:absolute;
+	border:solid 1px #fe053f;
+	border-radius: 50%;
+	margin-top:83px;
+}
+.zzu-service-box .zzu-service-smallbox{
+	position:relative;
+	margin-right: 44px;
+    margin-left: 26px;
+    margin-top:72px;
+    margin-bottom: 90px;
+}
+.zzu-smallbox-oneleft{
+	margin-left:10px;
+}
+.zzu-service-box .zzu-service-smallbox .zzu-con span{
+	font-size:18px;
+	margin-top:26px;
+	display: block;
+	margin-bottom: 8px;
+	
+}
+.zzu-section-service .zzu-m-tit,
+.zzu-section-chart .zzu-m-tit{
+	padding-top:65px;
+}
+.zzu-section-chart .zzu-m-tit{
+	padding-bottom:70px;
+}
+
+.zzu-section-chart{
+	background-color:white;
+}
+.zzu-chart-box .zzu-chart-smallbox .zzu-number{
+	width:30px;
+	height:30px;
+	background-color: white;
+	border:1px solid #fe053f;
+	border-radius: 50%;
+	text-align: center;
+	color:#fe053f;
+	line-height: 30px;
+}
+.zzu-section-chart .zzu-chart-box .zzu-chart-smallbox{
+	position:relative;
+}
+.zzu-section-chart .zzu-chart-box .zzu-chart-smallbox .zzu-number{
+	position:absolute;
+	margin-top:192px;
+	margin-left:94px;
+}
+.zzu-section-chart .zzu-chart-box .col-xs-2{
+	width:213px;
+}
+.zzu-chart-left{
+	margin-left:22px;
+}
+.zzu-section-chart .zzu-chart-box .zzu-chart-smallbox .zzu-con{
+	margin-top:28px;
+	text-align: center;
+	margin-bottom: 88px;
+} 
+.zzu-error {
+	text-align: left;
+	color: #f25479;
+	font-size: 15px;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 304px;
+	
+}

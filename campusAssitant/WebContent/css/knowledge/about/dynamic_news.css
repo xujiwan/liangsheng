@@ -1,0 +1,139 @@
+@charset "utf-8";
+.zzu-border {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ED272E;
+	border-radius: 50%;
+	margin-top: 11px;
+	margin-right: 5px;
+}
+
+.zzu-dynamic-container {
+	width: 800px;
+	line-height: 1.8;
+	    padding-right: 35px;
+	    font-family: "微软雅黑";
+	        padding-top: 20px;
+}
+
+.zzu-news-down,
+.zzu-news-up {
+	border: 1px solid #E5E5E5;
+	color: #999999;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.zzu-news-up-title,
+.zzu-news-up-date,
+.zzu-news-down-title,
+.zzu-news-down-date {
+	float: left;
+	line-height: 40px;
+}
+
+.zzu-border,
+.zzu-news-title span {
+	float: left;
+}
+
+.zzu-news-title span {
+	font-size: 24px;
+	
+}
+
+.zzu-news-up-date,
+.zzu-news-down-date {
+	float: right;
+}
+.zzu-news-title .zzu-news-up-date{
+	font-size: 12px;
+	font-weight: normal;
+	color:#999999;
+	    float: right;
+}
+.zzu-left-dynamic{
+	width:780px;
+}
+.zzu-news-title {
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    height:80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    }
+.zzu-news-up-date {
+    float: right;   
+  }
+  .zzu-news-up:hover{
+  	
+  	border:1px solid #ED272E;
+  }  
+  .zzu-news-up a:hover
+  {
+  	color:#ED272E;
+  }
+   .zzu-news-down a:hover{
+  	color:#ED272E;
+  }
+  .zzu-news-down:hover{
+  	color:#ED272E;
+  	border:1px solid #ED272E;
+  } 
+  .zzu-right-dynamic{
+  	float:right;
+  }
+  .zzu-left-dynamic{
+  	float:left;
+  }
+.zzu-next-issue{
+	background-image: url(/../../campusAssitant/img/knowledge/about/dynamic/next.jpg);
+	background-repeat: no-repeat;
+	
+	padding-left: 20px;
+}
+.zzu-next-issue:hover{
+	background-image: url(/../../campusAssitant/img/knowledge/about/dynamic/nextred.jpg);
+}
+.zzu-prev-issue{
+	background-image: url(/../../campusAssitant/img/knowledge/about/dynamic/prev.jpg);
+	background-repeat: no-repeat;
+	
+	padding-left: 20px;
+}
+.zzu-prev-issue:hover{
+	background-image: url(/../../campusAssitant/img/knowledge/about/dynamic/prevred.jpg);
+}
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 68px;
+}

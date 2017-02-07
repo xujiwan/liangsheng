@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/**
+*头部导航
+**/
+.zzu-product-safety {
+	background-color: #f5f5f5;
+}
+
+.zzu-icon-group-sub, .zzu-icon-security-sub, .zzu-icon-earnings-sub,
+	.zzu-icon-arrow, .zzu-icon-money, .zzu-icon-date,
+	.zzu-icon-relate-wechat, .zzu-icon-share, .zzu-icon-draw,
+	.zzu-icon-share-sina, .zzu-icon-share-wechat, .zzu-icon-share-message {
+	background-image: url("../../images/img/sprite_sub.png");
+}
+
+.zzu-product-safety .col-xs-4 .zzu-icon {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 60px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+.zzu-product-safety .col-xs-4 .zzu-icon-security-sub {
+	background-position: -50px 0;
+}
+
+.zzu-product-safety .col-xs-4 .zzu-icon-earnings-sub {
+	background-position: -100px 0;
+}
+
+.zzu-product-safety .col-xs-4 {
+	position: relative;
+	padding-left: 145px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.zzu-product-safety .col-xs-4 .zzu-title {
+	line-height: 38px;
+	font-size: 18px;
+}
+
+.zzu-product-safety .col-xs-4 p {
+	line-height: 16px;
+	width: 75%;
+}
+
+.zzu-product-safety .col-xs-4:after {
+	content: "";
+	position: absolute;
+	background-color: #dcdcdc;
+	height: 30px;
+	width: 1px;
+	right: -1px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.zzu-product-safety .col-xs-4:first-child:before {
+	content: "";
+	position: absolute;
+	background-color: #dcdcdc;
+	height: 30px;
+	width: 1px;
+	left: -1px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.zzu-product-nav {
+	position: relative;
+}
+
+.zzu-product-nav a{
+	display: block;
+	width:400px;
+}
+.zzu-product-nav>li {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #696969;
+	transition: all 0.3s;
+	cursor: pointer;
+	padding: 0px;
+}
+
+.zzu-product-nav>li h2 {
+	font-size: 14px;
+}
+
+.zzu-product-nav>li a:link, .zzu-product-nav>li a:visited {
+	color: #fffefe;
+	height: 40px;
+	line-height: 40px;
+}
+
+.zzu-product-nav>li.active, .zzu-product-nav>li:hover, .zzu-product-nav>li:hover a
+	{
+	background-color: #ed272e;
+	height: 40px;
+	line-height: 40px;
+}
+
+.zzu-product-headline {
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	color: #434343;
+}
+
+.zzu-product-headline:before {
+	content: "";
+	position: absolute;
+	width: 1em;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	background-color: #ed272e;
+}
+
+.zzu-title {
+	line-height: 44px;
+	color: #434343;
+	font-size: 16px;
+}
+
+/**
+*返回按钮
+**/
+.zzu-return-head {
+	padding-top: 33px;
+	height: 120px;
+	line-height: 87px;
+}
+
+.zzu-return-head .zzu-btn-return {
+	position: relative;
+	padding-left: 44px;
+}
+
+.zzu-return-head div{
+	padding: 0px;
+}
+
+.zzu-return-head .zzu-btn-return:before {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 20px;
+	content: "";
+	top: 50%;
+	margin-top: -7px;
+	background: url(../../images/img/sprite_sub.png) -24px -83px no-repeat;
+	top: 50%;
+}
+
+/**
+*输入框
+**/
+.zzu-number-text, .zzu-number-text.active,
+.zzu-number-text:focus {
+	width: 100%;
+	line-height: 20px;
+	font-size: 14px;
+	color: #434343;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	height: 40px;
+	padding: 8px 20px;
+	font-size: 12px;
+	margin: 0px;
+}

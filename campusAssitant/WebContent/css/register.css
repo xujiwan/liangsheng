@@ -1,0 +1,255 @@
+body {
+	background-image: url(../images/register/banner.jpg);
+	
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	/*overflow: hidden;
+	overflow-x:hidden;*/
+}
+
+
+/*主体*/
+.zzu-btn-box:hover{
+	background-color: dodgerblue;
+}
+.zzu-bg-box,
+.zzu-register-box {
+	margin-left: 64%;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.zzu-bg-box {
+	background-color: #0D7B92;
+	opacity: 0.5;
+	width: 380px;
+	height: 480px;
+	position: absolute;
+	border-radius: 3px;
+}
+
+.zzu-number-sign,.zzu-tel-sign,.zzu-ic-sign {
+	background-image: url(../images/login-common/sign.png);
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	margin-left: 290px;
+	margin-top: -28px;
+}
+
+.zzu-password-sign {
+	background-image: url(../images/login-common/sign.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+	background-position: -17px 0px;
+	margin-left: 290px;
+	margin-top: -28px;
+}
+
+.zzu-register-box {
+	overflow: hidden;
+	position: absolute;
+	padding-left: 17px;
+}
+
+.zzu-student-register {
+	margin-top: 24px;
+	margin-left: 10px;
+}
+
+.zzu-student-register h1 {
+	float: left;
+	font-size: 22px;
+	color: #FFF;
+}
+
+.zzu-student-register a {
+	margin-left: 250px;
+	display: block;
+	margin-top: 4px;
+}
+
+a:hover {
+	color: dodgerblue;
+}
+
+.zzu-input-register input {
+	height: 45px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.zzu-input-register a {
+	display: block;
+	margin-left: 240px;
+	margin-top: -32px;
+}
+
+.zzu-input-register p {
+	display: block;
+	margin-left: 266px;
+	margin-top: -35px;
+	color: white;
+	cursor: hand;
+	font-size: 16px;
+}
+
+.zzu-input-register p:hover {
+	color: dodgerblue;
+}
+
+.zzu-grap-verify input,
+.zzu-grap-verify a {
+	float: left;
+	color: #FFF;
+}
+
+.zzu-grap-verify {
+	margin-top: 5px;
+	position: relative;
+}
+
+.zzu-grap-verify a {
+	padding-top: 26px;
+	padding-left: 30px;
+}
+
+.zzu-verify {
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 128px;
+}
+
+.zzu-message-verify input,
+.zzu-message-verify p {
+	float: left;
+	color: #FFF;
+}
+
+.zzu-message-verify p {
+	padding-top: 26px;
+	padding-left: 32px;
+	margin-left: 14px;
+}
+
+.zzu-btn-box {
+	margin-top: -45px;
+	width: 310px;
+	height: 45px;
+	margin-bottom: 4px;
+	cursor: hand;
+	position: absolute;
+	margin-left: 10px;
+}
+
+.zzu-btn-login {
+	
+	width: 310px;
+	height: 45px;
+	background-color:black;
+	/*background-color: #fe053f;*/
+	opacity: 0.4;
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+.zzu-checkbox input,
+.zzu-checkbox a {
+	float: left;
+}
+
+.zzu-checkbox {
+	color: #FFF;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 13px;
+	/*float: left;*/
+}
+
+.zzu-checkbox a {
+	font-size: 14px;
+}
+
+.zzu-register-botton {
+	color: dodgerblue;
+	background-color: dodgerblue;
+	border: 0;
+	width: 310px;
+	font-size: 18px;
+	height: 45px;
+}
+
+.zzu-register-botton {
+	color: white;
+}
+
+.zzu-student-number,
+.zzu-student-tel,
+.zzu-student-ic,
+.zzu-student-password{
+	width: 310px;
+	height: 50px;
+}
+
+.zzu-student-verify {
+	width: 217px;
+	height: 45px;
+}
+
+.zzu-login-hint {
+	position: absolute;
+	margin-top: 24px;
+	color: white;
+	margin-left: 15px;
+	font-size: 15px;
+	color: dodgerblue;
+	word-break: break-all;
+	width: 350px;
+}
+
+.zzu-check-container {
+	width: 310px;
+}
+
+/*注册页底部高度大小设置*/
+
+@media (max-width: 1280px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 630px;
+}
+}
+@media (min-width: 1280px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 660px;
+}
+}
+@media (min-width: 1600px){
+	.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:750px;
+}
+}
+
+.zzu-check-container .zzu-checkbox span{
+	display: block;
+	padding-top:1px;
+	width:160px;
+}
+.zzu-checkboxTop {
+    margin-top: 5px;
+}

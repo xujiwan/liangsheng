@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+a.active,
+a:focus,
+a:hover {
+	color: #565656;
+}
+
+.clear {
+	clear: both;
+}
+
+.zzu-page-account {
+	background-color: #F5F5F5;
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.zzu-account-tab {
+	background-color: #FFFFFF;
+	font-size: 0;
+	border-bottom: solid 1px #e5e5e5;
+	height: 61px;
+}
+
+.zzu-account-tab a {
+	display: inline-block;
+	box-sizing: content-box;
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 50px;
+	font-size: 20px;
+	border-bottom: solid 1px transparent;
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+
+.zzu-account-tab a:hover,
+.zzu-account-tab a.active {
+	background-color: #ed272e;
+	border-bottom: solid 1px #ed272e;
+	color: #FFFFFF;
+}
+
+.zzu-date-divider {
+	display: inline-block;
+	width: 14px;
+	height: 2px;
+	background-color: #cccccc;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+	top: -5px;
+}
+
+.zzu-funds-overview .zzu-select-date {
+	height: 140px;
+	background-color: #FFF;
+	border-right: solid 1px #e5e5e5;
+	width: 600px;
+	float: left;
+	padding: 37px 110px 30px 80px;
+}
+
+.zzu-text-gray {
+	color: #888;
+}
+
+.zzu-select-date .zzu-end-date,
+.zzu-select-date .zzu-start-date {
+	font-size: 24px;
+	line-height: 53px;
+}
+
+.zzu-select-date .zzu-date-divider {
+	display: inline-block;
+	width: 14px;
+	height: 2px;
+	background-color: #ccc;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+	top: -5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.zzu-item,
+.zzu-invest-time,
+.zzu-invest-status {
+	float: left;
+}
+
+.zzu-invest-time h6,
+.zzu-invest-time a {
+	text-decoration: none;
+	float: left;
+	margin-left: 24px;
+	marign-right: 24px;
+}
+
+.zzu-invest-status h6,
+.zzu-invest-status a {
+	float: left;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.zzu-querylist .zzu-item {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+.zzu-invest-time h6,
+.zzu-invest-status h6 {
+	color: #b8b7b7;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.zzu-invest-time .zzu-invest-all,
+.zzu-invest-status .zzu-invest-all {
+	color: red;
+	font-size: 12px;
+}
+
+.zzu-querylist {
+	overflow: hidden;
+	line-height: 60px;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #FFF;
+	margin-top: 60px;
+	padding-left: 30px;
+}
+
+.zzu-invest-time {
+	padding-left: 58px;
+}
+
+.zzu-table-dataList {
+	background-color: #FFFFFF;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-table-dataList th {
+	height: 80px;
+	line-height: 80px;
+	background-color: #fafafa;
+	font-size: 16px;
+	padding-left: 70px;
+}
+
+.zzu-table-dataList .zzu-col-repaymentDate {
+	width: 180px;
+	padding-right: 8px;
+	text-align: right;
+}
+
+.zzu-table-dataList .zzu-col-repaymentAmount {
+	width: 130px;
+	padding-left: 8px;
+	text-align: left;
+}
+
+.zzu-table-dataList .zzu-line {
+	position: relative;
+}
+
+.zzu-table-dataList .zzu-line:after {
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 0;
+	border-left: solid 1px #d4d4d4;
+	border-right: solid 1px #e8e8e8;
+	top: 50%;
+	margin-top: -5px;
+	right: -1px;
+}
+
+.zzu-table-dataList td {
+	height: 40px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 12px;
+}
+
+.zzu-tac {
+	text-align: center;
+	margin-left: 50px;
+}
+
+.zzu-table-dataList .zzu-col-repaymentDate {
+	width: 180px;
+	padding-right: 8px;
+	text-align: right;
+}
+
+.zzu-tar {
+	text-align: right;
+}
+
+.zzu-trade {
+	color: #db4949;
+}
+
+.zzu-tal {
+	text-align: left;
+}
+
+.zzu-text-emphasis {
+	color: #000;
+}
+
+.zzu-text-link:link,
+.zzu-text-link:visited {
+	color: #434343;
+}
+
+.zzu-text-link:hover {
+	color: #ed272e;
+}
+
+.clearfix:after,
+.clearfix:before {
+	content: " ";
+	display: table;
+}
+
+.zzu-table-dataList {
+	background-color: #FFF;
+}
+
+.zzu-table-dataList {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zzu-invest-date {
+	padding-left: 30px;
+	display: block;
+}
+
+.zzu-datebox {
+	margin-left: 16px;
+}
+
+.zzu-tac thead {
+	background-color: #0F0;
+}
+
+.zzu-m-pagination .count {
+	line-height: 40px;
+	font-size: 14px;
+}
+.zzu-fr {
+	float: right;
+}
+.zzu-table-body span{
+	display: block;
+	margin-bottom: 30px;
+}
+

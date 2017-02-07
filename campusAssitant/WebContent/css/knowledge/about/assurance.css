@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/*证书滚动样式*/
+
+.zzu-title-redbottom {
+	position: relative;
+}
+.zzu-pb6{
+	padding-bottom: 6px;
+}
+.zzu-certificate {
+	background-color: #f5f5f5;
+	height: 508px;
+}
+
+.zzu-certificate h4 {
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.zzu-certificate h5 {
+	margin-top: 10px;
+}
+
+.zzu-pt30 {
+	padding-top: 30px;
+}
+
+.zzu-red-bottom:before {
+	content: "";
+	position: absolute;
+	width: 1em;
+	height: 2px;
+	bottom: 0;
+	background-color: #ed272e;
+	margin-left: 26px;
+	
+}
+
+.zzu-box {
+	width: 1010px;
+	height: 230px;
+	overflow: hidden;
+	position: relative;
+}
+
+.zzu-imgbox {
+	width: 1438px;
+}
+
+.zzu-imgbox img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 229px;
+}
+
+.zzu-box span {
+	width: 58px;
+	height: 87px;
+	cursor: pointer;
+}
+
+.zzu-leftspan {
+	margin-right: 20px;
+}
+
+.zzu-rightspan {
+	margin-left: 20px;
+}
+
+.zzu-leftspan img,
+.zzu-box,
+.zzu-rightspan img {
+	float: left;
+	display: block;
+}
+
+.zzu-leftspan img,
+.zzu-rightspan img {
+	display: block;
+	margin-top: 65px;
+}
+
+.zzu-rightspan img {
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.zzu-leftspan img {
+	margin-right: 20px;
+}
+
+.zzu-coupon,
+.zzu-risk,
+.zzu-fund,
+.zzu-law {
+	width: 590px;
+	height: 232px;
+	padding-right: 20px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+
+.zzu-coupon,
+.zzu-risk {
+	float: left;
+}
+
+.zzu-fund,
+.zzu-law {
+	float: left;
+}
+
+.zzu-coupon img,
+.zzu-coupon .zzu-coupon-right {
+	float: left;
+	display: block;
+}
+
+.zzu-coupon-right,
+.zzu-risk-right,
+.zzu-fund-right,
+.zzu-law-right {
+	width: 328px;
+}
+
+.zzu-coupon-right,
+.zzu-fund-right {
+	margin-left: 20px;
+}
+
+.zzu-risk img,
+.zzu-risk .zzu-risk-right {
+	float: left;
+	display: block;
+}
+
+.zzu-fund img,
+.zzu-fund .zzu-fund-right {
+	float: left;
+	display: block;
+}
+
+.zzu-law img,
+.zzu-law .zzu-law-right {
+	float: left;
+	display: block;
+}
+.zzu-left-btn,
+.zzu-right-btn{
+	width:200px;
+	height:50px;
+	float: left;
+	font-size:16px;
+	padding-top:14px;
+}
+.zzu-left-btn {
+	background-color: #fe053f;
+	color: white;
+	margin-right:40px;
+}
+
+.zzu-right-btn {
+	border: 2px solid #fe053f;
+}
+.zzu-experience-btnBox{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 70px;
+    overflow: hidden;
+}
+.zzu-left-container,
+.zzu-center-container,
+.zzu-right-container{
+	float: left;
+}
+.zzu-right-container{
+	margin-top: 60px;
+}
+.zzu-left-container,
+.zzu-right-container{
+	width:586px;
+}
+.zzu-left-container,
+.zzu-right-container{
+	width:536px;
+}
+
+.zzu-left-container .zzu-step-left,
+.zzu-right-container .zzu-step-left{
+	float: left;
+    width: 380px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.zzu-left-container .zzu-step-img img,
+.zzu-right-container .zzu-step-img img{
+    display: block;
+    width: 134px;
+  	padding-top: 30px;
+    padding-left: 20px;
+   
+}
+.zzu-step-height{
+	height:180px;
+	margin-top:30px;
+	background-color: #f5f5f5;
+}
+.zzu-font{
+	color: #ED272E;
+	text-align: center;
+	z-index: 3;
+}
+.zzu-center-line{
+	z-index: 0;
+	width:2px;
+	height: 1066px;
+	margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 35px;
+    position: relative;
+    background-color: #d2d2d2;
+}
+.zzu-number-border{
+	background-color: #F5F5F5;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+.zzu-step-number{
+	position: absolute;
+	margin-top: -1100px;
+    margin-left: 40px;
+}
+.zzu-mt124{
+	margin-top:124px;
+}
+.zzu-mt65{
+	margin-top:65px;
+}
+.zzu-left-btn a{
+	color:white;
+	}
+
+
+.Cert-mskeLayBg {
+    background: #000;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    /* display: none; */
+    _display: none!important;
+}
+.Cert-mskelayBox {
+    position: fixed;
+    text-align: center;
+    left: 30%;
+    top: 2%;
+    border: 8px solid #ccc;
+    border-radius: 5px;
+    z-index: 20;
+    background: #FFF;
+    /* display: none; */
+    _display: none!important;
+}
+.Cert-mskeClaose {
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    cursor: pointer;
+}
+img {
+    border: 0;
+}
+.zzu-red-bottomTwo:before {
+    content: "";
+    position: absolute;
+    width: 1em;
+    height: 2px;
+    bottom: 0;
+    background-color: #ed272e;
+  margin-left: 108px;
+}

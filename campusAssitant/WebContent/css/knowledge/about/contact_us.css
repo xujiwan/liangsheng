@@ -1,0 +1,77 @@
+@charset "utf-8";
+.zzu-headquarters h4,
+.zzu-headquarters h5,
+{
+	display: block;
+}
+.zzu-headquarters,
+.zzu-marketing{
+	border-right: 1px solid #e5e5e5;
+}
+.zzu-headquarters,
+.zzu-marketing,
+.zzu-service-tel
+{	padding-left:18px;
+	float:left;
+}
+.zzu-scanOne,
+.zzu-scanTwo{
+	float:right;
+}
+.zzu-scanTwo{
+	margin-left:60px;
+}
+.zzu-headquarters h5,
+.zzu-marketing h5,
+.zzu-service-tel h5{
+	color:#a1a1a1;
+	padding-right:26px;
+}
+.zzu-container-top{
+	margin-top:60px;
+	margin-bottom: 100px;
+}
+.zzu-img-top{
+	margin-top:5px;
+}
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 68px;
+}
+.zzu-container-box{
+	padding-bottom: 80px;
+	padding-top: 65px;
+	border-bottom: solid 1px #e5e5e5;
+	background: #f9f9f5;
+}
+.zzu-login-footer{
+	margin-top:50px;
+	margin-bottom: 50px;
+}

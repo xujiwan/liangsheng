@@ -1,0 +1,85 @@
+.zzu-banner {
+	background-image: url(../../img/myTeacher/banner.jpg);
+	height: 300px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.tit {
+    height: 35px;
+   /*  padding-top: 10px; */
+    border-bottom: 1px solid #a0a0a0;
+    line-height: 35px;
+    font-size: 16px;
+    color:red;
+}
+.left{
+    font-family: 微软雅黑;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: rgb(69, 71, 75);
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+
+}
+.left .tc2 ul li.r dt p.wz {
+    position: relative;
+    color: #000;
+    border: none;
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom: 1px dotted #45474b;
+    margin-bottom: 10px;
+}
+.left .tc2 ul li.r dt p {
+    font-size: 14px;
+    color: #808080;
+    line-height: 25px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.tc2 ul li {
+    display: list-item;
+    margin:0; 
+    padding:0; 
+    list-style-type:none; 
+    text-align: -webkit-match-parent;
+}
+.left .tc2 ul li dt.m {
+    padding-top: 40px;
+}
+
+dt {
+    display: block;
+}
+.lx{
+	font-size: 14px;
+    color: #808080;
+    line-height: 25px;
+}

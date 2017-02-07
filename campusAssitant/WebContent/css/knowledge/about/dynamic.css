@@ -1,0 +1,133 @@
+@charset "utf-8";
+.zzu-left-dynamic,
+.zzu-right-dynamic{
+	float: left;
+}
+.zzu-dynamic-dateright{
+	background-image: url(/../../campusAssitant/img/knowledge/about/dynamic/dynamicbg.jpg);
+	width:756px;
+	height:137px;
+	background-repeat: no-repeat;
+	padding-left:76px;
+	padding-right:22px ;
+	padding-top: 10px;
+}
+.zzu-left-dynamic{
+	width:830px;
+	margin-right: 20px;
+	padding-left: 14px;
+}
+.zzu-date-year,
+.zzu-date-time{
+	width:60px;
+	line-height;20px;
+	
+}
+.zzut-dynamic-date span{
+	display: block;
+}
+.zzut-dynamic-date{
+	padding-top:36px;
+}
+.zzu-date-year{
+	background-color: #f0f0f0;
+}
+.zzu-date-time{
+	background-color: #b3b3b3;
+}
+.zzut-dynamic-date,
+.zzu-dynamic-dateright{
+	float:left
+}
+
+.zzu-dynamic-dateright{
+	 line-height: 1.8;
+}
+.zzu-news-date{
+	color:#a1a1a1;
+}  
+.zzu-news{
+	border: 1px solid #e5e5e5;
+	width:350px;
+	overflow: hidden;
+} 
+.zzu-news img{
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+	padding-top:14px;
+}
+.zzu-news-img{
+	height:72px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.zzu-right-dynamic .zzu-new-text{
+	padding-left:20px;
+	padding-right: 20px;
+}
+.zzu-new-text p{
+	padding-top:10px;
+	line-height:1.6;
+}
+.zzu-mb10{
+	margin-bottom: 10px;
+}
+.zzu-newsimg-baidu img,
+.zzu-newsimg-ts img{
+	padding-top:6px;
+}
+.zzu-dynamic-btn{
+	background-color: #ED272E;
+    line-height: 34px;
+    width: 703px;
+    color: white;
+    margin-left: 113px;
+    cursor: pointer;
+}
+.zzu-container-box{
+	margin-bottom: 80px;
+}
+.zzu-dynamic-dateright h5{
+	line-height:1.6;
+}
+.zzu-mt46{
+	margin-top:46px;
+}
+.zzu-load-text {
+    
+    font-size: 16px;
+}
+.zzu-loading-hidden {
+    display: none;
+}
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-login-footer {
+	width: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 68px;
+}

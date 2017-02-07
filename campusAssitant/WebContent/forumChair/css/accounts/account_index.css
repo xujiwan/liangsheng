@@ -1,0 +1,604 @@
+@charset "utf-8";
+/* CSS Document */
+.zzu-rernittance{
+	display: block;
+	color:#ED272E;
+	font-size: 16px;
+	text-decoration: underline;
+	margin-top:5px;
+}
+.zzu-account-summary .zzu-info{
+	position: relative;
+}
+.zzu-account-summary .zzu-info .zzu-rernittance
+{
+	position: absolute;
+	margin-left: 96px;
+}
+.zzu-account-summary .zzu-info a:hover{
+	color:#ED272E;
+}
+.zzu-account-summary {
+	background-color: #FFFFFF;
+}
+
+.zzu-account-summary li {
+	float: left;
+	height: 142px;
+}
+
+.zzu-bd dd a {
+	color: #000
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.zzu-page-account {
+	background-color: #f5f5f5;
+}
+
+.zzu-operate {
+	float: left;
+	height: 142px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.zzu-account-summary .zzu-info {
+	width: 290px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.zzu-account-summary .zzu-info .zzu-avatar {
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	border: solid 1px #bfbfbf;
+	margin-right: 15px;
+}
+
+.zzu-account-summary .zzu-info .zzu-avatar img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.zzu-account-summary .zzu-info .zzu-name {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.zzu-account-summary .zzu-info .zzu-date {
+	color: #888888;
+}
+
+.zzu-account-summary .zzu-money {
+	padding-top: 44px;
+	padding-left: 70px;
+	width: 242px;
+}
+.zzu-moneybgone{
+	background-image: url(../../images/accounts/account_index/moneyiconOne.jpg);
+	background-repeat: no-repeat;
+	background-position:10px center;
+
+}
+.zzu-moneybgtwo{
+	background-image: url(../../images/accounts/account_index/moneyiconTwo.jpg);
+	background-repeat: no-repeat;
+	background-position:10px center;
+
+}
+.zzu-account-summary .zzu-money .zzu-num {
+	font-size: 24px;
+	margin-left: -3px;
+}
+
+.zzu-text-gray {
+	color: #888888;
+}
+
+.zzu-account-summary .zzu-operate {
+	width: 176px;
+	float: left;
+}
+
+.zzu-operate .zzu-btn-charge {
+	transition: all 0.2s;
+	font-size: 16px;
+	color: #FFFFFF;
+	height: 50%;
+	width: 100%;
+	display: block;
+	background-color: #ed272e;
+	position: relative;
+	padding-left: 90px;
+	text-align: left;
+	line-height: 70px;
+}
+
+.zzu-operate .zzu-btn-charge:before {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 60px;
+	top: 50%;
+	margin-top: -7px;
+	background: url(../../images/accounts/account_index/sprite_sub.png) -23px -102px no-repeat;
+}
+
+.zzu-operate .zzu-btn-charge:hover {
+	background-color: #f04d52;
+}
+
+.zzu-btn {
+	border: none;
+	font-size: 14px;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+
+.zzu-operate .zzu-btn-withdraw {
+	font-size: 16px;
+	line-height: 70px;
+	color: #434343;
+	width: 100%;
+	height: 50%;
+	display: block;
+	background-color: #FFFFFF;
+	position: relative;
+	padding-left: 90px;
+	text-align: left;
+}
+
+.zzu-operate .zzu-btn-withdraw:before {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 60px;
+	top: 50%;
+	margin-top: -7px;
+	background: url(../../images/accounts/account_index/sprite_sub.png) -43px -102px no-repeat;
+}
+
+.zzu-operate .zzu-btn-withdraw:hover {
+	color: #ed272e;
+}
+
+.zzu-page-account .zzu-content {
+	padding-bottom: 60px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zzu-info,
+.zzu-money {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-page-account .zzu-chart-wrap {
+	background-color: #FFFFFF;
+}
+
+.zzu-chart-tab {
+	height: 56px;
+	line-height: 56px;
+	border-bottom: solid 0px #e5e5e5;
+}
+
+.zzu-chart-tab .zzu-item {
+	height: 100%;
+	padding: 0 30px;
+	font-size: 20px;
+}
+
+.zzu-chart-tab .zzu-item:hover,
+.zzu-chart-tab .zzu-item.active {
+	background-color: #ed272e;
+	color: #FFFFFF;
+}
+
+a:hover,
+a:focus,
+a.active {
+	color: #565656;
+}
+
+.zzu-chart-tab .zzu-filter {
+	margin-left: 50px;
+}
+
+.zzu-chart-tab .zzu-filter span {
+	cursor: pointer;
+	margin-right: 35px;
+}
+
+.zzu-chart-tab .zzu-filter span.active,
+.zzu-chart-tab .zzu-filter span:hover {
+	color: #ed272e;
+}
+
+.table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: none;
+}
+
+.zzu-count-top .table {
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.zzu-count-top .table td {
+	padding-left: 60px;
+	height: 100px;
+}
+
+.zzu-count-top .table .zzu-f26 {
+	line-height: 32px;
+}
+
+.zzu-count-top .table .col-num {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-count-top .table .col-money {
+	border-right: solid 1px #e5e5e5;
+}
+.zzu-record-count .table .col-num {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-record-count .table .col-money {
+	border-right: solid 1px #e5e5e5;
+}
+
+.zzu-f26 {
+	font-size: 26px;
+}
+
+.zzu-text-link:link,
+.zzu-text-link:visited {
+	color: #888888;
+	text-decoration: underline;
+}
+
+.zzu-text-link:hover {
+	color: #ed272e;
+}
+
+.zzu-recharge-record {
+	background-color: #FFF;
+	height: 520px;
+}
+
+
+.zzu-record-count .table td {
+	padding-left: 60px;
+	height: 100px;
+}
+
+.zzu-account-panel .zzu-info{
+	border:none;
+}
+/*体验金*/
+
+
+/*.zzu-experience-money {
+	width: 400px;
+}
+
+.zzu-experience-money .zzu-hd {
+	height: 60px;
+	line-height: 60px;
+	padding: 0 30px;
+	background-color: #FFFFFF;
+}
+.zzu-experience-money .zzu-item {
+	background: url(../../images/accounts/account_index/experience_money.png) no-repeat;
+	height: 120px;
+}
+.zzu-experience-money .zzu-item .zzu-num {
+	font-size: 40px;
+}
+
+.zzu-experience-money .zzu-item div.zzu-fr {
+	width: 50%;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 24px;
+}
+
+.zzu-experience-money .zzu-item div.zzu-fl {
+	padding-top: 35px;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+}
+.zzu-hd .zzu-tips-wrap {
+	position: relative;
+}
+
+.zzu-hd .zzu-tips-wrap:hover .zzu-tips {
+	visibility: visible;
+	opacity: 1;
+}
+.zzu-cash-coupon .zzu-hd {
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+	padding: 0 30px;
+	background-color: #FFFFFF;
+}
+
+.zzu-cash-coupon .zzu-hd .zzu-m-page {
+	padding-top: 20px;
+}
+
+.zzu-cash-coupon .zzu-hd .zzu-m-page a {
+	margin-right: 1px;
+}
+.zzu-tips-wrap .zzu-tips {
+	transition: all 0.2s ease-in;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	width: 465px;
+	height: 140px;
+	padding-top: 20px;
+	border: solid 1px #e5e5e5;
+	background-color: #FFFFFF;
+	color: #888888;
+	left: 50%;
+	top: 52px;
+	margin-left: -232px;
+}
+
+.zzu-tips-wrap .zzu-tips:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -7px;
+	left: 50%;
+	margin-left: -11px;
+	border-style: solid;
+	border-color: transparent transparent #e5e5e5 transparent;
+	border-width: 0 11px 7px 11px;
+}
+
+.zzu-tips-wrap .zzu-tips:after {
+	content: "";
+	position: absolute;
+	top: -6px;
+	width: 0;
+	height: 0;
+	left: 50%;
+	margin-left: -11px;
+	border-style: solid;
+	border-color: transparent transparent #FFFFFF transparent;
+	border-width: 0 11px 7px 11px;
+}
+
+.zzu-tips-wrap .zzu-tips li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	color: #888888;
+	position: relative;
+}
+
+.zzu-tips-wrap .zzu-tips li:hover {
+	color: #ed272e;
+}
+
+.zzu-tips-wrap .zzu-tips li span {
+	display: inline-block;
+	width: 62px;
+	height: 62px;
+	border: solid 1px #e5e5e5;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #adadad;
+}
+
+.zzu-tips-wrap .zzu-tips li p {
+	line-height: 40px;
+}
+
+.zzu-tips-wrap .zzu-tips li:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 0;
+	top: 21px;
+	border-style: solid;
+	border-color: transparent transparent transparent #dedede;
+	border-width: 10px 0 10px 10px;
+}
+
+.zzu-tips-wrap .zzu-tips li:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 3px;
+	top: 21px;
+	border-style: solid;
+	border-color: transparent transparent transparent #FFFFFF;
+	border-width: 10px 0 10px 10px;
+}
+
+.zzu-tips-wrap .zzu-tips li:last-child:before,
+.zzu-tips-wrap .zzu-tips li:last-child:after {
+	display: none;
+}
+.zzu-item .zzu-unit {
+	font-size: 25px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	color: #696969;
+	margin-right: 8px;
+	text-align: center;
+}
+.zzu-cash-coupon .zzu-bd {
+	width: 100%;
+	height: 121px;
+	overflow: hidden;
+	position: relative;
+}
+
+.zzu-cash-coupon .zzu-item-list {
+	position: absolute;
+	left: 0;
+	width: 752px;
+}
+
+.zzu-cash-coupon .zzu-item-list .zzu-item {
+	width: 366px;
+	height: 121px;
+	padding-top: 20px;
+	padding-left: 105px;
+	background: url(../../images/accounts/account_index/cash_coupon.png);
+	margin-right: 8px;
+	float: left;
+}
+.zzu-page-account .zzu-cash-coupon {
+	width: 740px;
+}
+.zzu-m-page {
+	font-size: 0;
+}
+
+.zzu-m-page .zzu-prev {
+	display: inline-block;
+	vertical-align: top;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.zzu-m-page .zzu-prev:before,
+.zzu-m-page .zzu-prev.active {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -3px;
+	margin-left: -3px;
+	border-style: solid;
+	border-color: transparent #a5a5a5 transparent transparent;
+	border-width: 3px 6px 3px 0;
+}
+
+.zzu-m-page .zzu-prev:hover {
+	background-color: #ed272e;
+}
+
+.zzu-m-page .zzu-prev:hover:before {
+	border-color: transparent #FFFFFF transparent transparent;
+}
+
+.zzu-m-page .zzu-next {
+	display: inline-block;
+	vertical-align: top;
+	width: 26px;
+	height: 26px;
+	position: relative;
+	background-color: #f1f1f1;
+}
+
+.zzu-m-page .zzu-next:before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -3px;
+	margin-left: -3px;
+	border-style: solid;
+	border-color: transparent transparent transparent #a5a5a5;
+	border-width: 3px 0 3px 6px;
+}
+
+.zzu-m-page .zzu-next:hover,
+.zzu-m-page .zzu-next.active {
+	background-color: #ed272e;
+}
+
+.zzu-m-page .zzu-next:hover:before,
+.zzu-m-page .zzu-next.active:before {
+	border-color: transparent transparent transparent #FFFFFF;
+}
+.zzu-item-list .zzu-item .zzu-num {
+	font-size: 30px;
+	line-height: 38px;
+	margin-left: -3px;
+}
+
+.zzu-item-list .zzu-item p {
+	line-height: 20px;
+}*/
+.zzu-moneyright .zzu-money-box .zzu-red-border,
+.zzu-moneyright .zzu-money-box span,
+.zzu-moneyright .zzu-money-box p{
+	float: left;
+}
+.zzu-moneyright .zzu-money-box{
+	height: 30px;
+	border-bottom:1px dashed #c6c6c6;
+	padding-top: 5px;
+}
+.zzu-moneyright .zzu-money-box .zzu-red-border{
+	width:10px;
+	height:10px;
+	border-radius:50% ;
+	border:1px solid red;
+	margin-top:4px;
+	
+}
+.zzu-moneyright .zzu-money-box p{
+	font-size: 14px;
+	
+	margin-left:4px;
+}
+.zzu-account-summary .zzu-moneyright {
+    padding-top: 13px;
+   padding-right: 10px;
+   padding-left: 10px;
+    width: 250px;
+}
+.zzu-info, .zzu-moneyright {
+    border-right: solid 1px #e5e5e5;
+}
+.zzu-moneyright .zzu-bottom-border{
+	height: 30px;
+	border-bottom:0px dashed #c6c6c6;
+	padding-top: 5px;
+}

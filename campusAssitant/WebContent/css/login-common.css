@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+a {
+	color: #FFF;
+	font-size: 16px;
+}
+.zzu-topbar a{
+	font-size: 14px;
+}
+.clear {
+	clear: both
+}
+
+input {
+	display: block;
+	outline: none;
+	border: none;
+}
+
+.zzu-login-reg a {
+	font-size: 14px;
+}
+
+.btn {
+	border: none;
+	line-height: 1.42;
+	cursor: pointer;
+	font-family: "microsoft yahei";
+}
+
+
+/*主体*/
+
+.zzu-logo {
+	position: absolute;
+	margin-top: 21px;
+	z-index: 2;
+}
+
+
+/*底部*/
+
+/*.zzu-copyright {
+	margin-top: 20px;
+	position: absolute;
+	padding-bottom: 40px;
+	
+}*/
+
+/*.zzu-login-footer .zzu-footer-nav {
+	position: absolute;
+}*/
+
+
+.zzu-login-footer .zzu-footer-nav {
+	padding-left: 82px;
+}
+
+.zzu-login-footer .zzu-footer-nav a {
+	float: left;
+	margin-right: 10px;
+	/*color: #fdf4f4;*/
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+
+.zzu-copyright p {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	/*color: white;*/
+	color:#666666;
+}
+
+.zzu-copyright p{
+	float: left;
+	
+}
+.container {
+	background-color: black;
+	display:inline;
+}
+
+.zzu-topbar .zzu-topnav .zzu-login-reg .zzu-icon-login{
+	float:left;
+}
